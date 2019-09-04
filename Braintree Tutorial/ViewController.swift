@@ -76,16 +76,5 @@ class ViewController: UIViewController {
         }
     }
     
-//    func customUIBraintree() {
-////        https://developers.braintreepayments.com/guides/credit-cards/client-side/ios/v4
-//        let braintreeClient = BTAPIClient(authorization: tokinizationKey)!
-//        let cardClient = BTCardClient(apiClient: braintreeClient)
-//        let card = BTCard(number: "4111111111111111", expirationMonth: "12", expirationYear: "2018", cvv: nil)
-//        cardClient.tokenizeCard(card) { (tokenizedCard, error) in
-//            print("hello hahaha: \(tokenizedCard?.nonce)")
-//            guard let nonce = tokenizedCard?.nonce else {return}
-//            self.sendRequestPaymentToServer(nonce: nonce, amount: "47")
-//        }
-//    }
 }
 
