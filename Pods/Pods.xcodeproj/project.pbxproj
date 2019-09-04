@@ -1,0 +1,1880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0175A28D7CEC4285B8EA571D4952BFCE /* BTUIKViewUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF899C9DE2A7FB875CB188B6BF0959E /* BTUIKViewUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0392AB419ED71536AC62A272E24D1C20 /* BTUIKExpiryInputCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B3033F790DA12C47F60AE55A2DB31F42 /* BTUIKExpiryInputCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04EB1099E60B1242E013556AC8591588 /* BTUIKExpiryInputCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F97FC2A5452A99C4FD58AC23AED53B7C /* BTUIKExpiryInputCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		052015ED36610CF3A2A2247833C70114 /* BTUIKAmExVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8C19478E5D7F2C6163E890CA812F3B /* BTUIKAmExVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0675E72FB00CF35DECFBE8959DCD6082 /* zh-Hant-HK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FA8247BA7CAD6AC080B220E0E07D03DA /* zh-Hant-HK.lproj */; };
+		06E039D401DFB26907BE5AFE7712D17D /* BTUIKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BD770AFF3794C86AE6B76A3533C1E4C1 /* BTUIKUtil.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		07FCC8F0D3A57004C1B8AC09CE059316 /* BTUIKCoinbaseWordmarkVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8357CE30DB4B70794CB7C30532F5B624 /* BTUIKCoinbaseWordmarkVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		094D570E60E80940936168BA5708360D /* BTUIKExpiryFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = C720174E3156DE4ADF0E5B186C6283A4 /* BTUIKExpiryFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		09A20768C6FA8A88571A0B89BE6B3544 /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 48C57BBD6D5DA2C69D832BB899F287A6 /* id.lproj */; };
+		0A942EF83E394AE1B1982AA2ED02487D /* BTURLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3261811695EADA354E576BF955914BB1 /* BTURLUtils.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0B90F7165D3E354C5EB3FF7FA1F071D3 /* BTAPIPinnedCertificates.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0B463D84EA81C97208BCC8E189D0DD /* BTAPIPinnedCertificates.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CA89EB08796711BEDBA46F2E4DADF77 /* BTHTTPErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1EC8FF89B5A7D9BE6BA672FD1D288F /* BTHTTPErrors.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E6015F9054663644DDC5AABE6ACC50B /* BTUIKLargeMasterCardVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = B29D1839DA4A6B0854FB15E7499A810A /* BTUIKLargeMasterCardVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F5445CA5FE4D637919CBA52AC3BFF06 /* BTUIKPaymentOptionCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC3C3CB51030EC27CBE7F2B9AD70D5C /* BTUIKPaymentOptionCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FF75B86A9E01F2A28FB6E47B5C1762A /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 56403F00DA8D11FCF3C0427DC224659B /* nl.lproj */; };
+		103BFE910CEF092EF9275289AAEC28E2 /* BTUIKPayPalWordmarkVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 959A582C10D7A470575DD1963BF089A3 /* BTUIKPayPalWordmarkVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1051C033A9987F7BB63F1807E9234424 /* BTUIKUnknownCardVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 778667FF4A9256F16B357EA089567215 /* BTUIKUnknownCardVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		127E15CCAC958ACDDED7BB83122089FD /* BTUIKLargeUnionPayVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0134B3968BB299745DE91C84C4FECB /* BTUIKLargeUnionPayVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		131501AE61E748CFA6CA37698A71AFB2 /* BTEnrollmentVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEDA820353FF3973239F16E2F5854CBD /* BTEnrollmentVerificationViewController.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		158FAF8FDCA94149E141C10E9F15692B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CDA87DF260201D6AD9D42F48E6248A /* UIKit.framework */; };
+		193332E5C31AD5DB580B025F405B76C0 /* BTUIKPaymentOptionCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3225AD21092C75EA1A32F92C712F743 /* BTUIKPaymentOptionCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		19F4D43795AFF140C0F69FCEEC9D1511 /* BraintreeUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6D476785702C2E3DF4A623267BAED4 /* BraintreeUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A3104395AD3868CF7A71BDA44DE43FE /* BTUIKVenmoWordmarkVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1B8243E609044FC96C269DCBF25706 /* BTUIKVenmoWordmarkVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B07AF70A2EB18D8F7ACB26382FC9A18 /* BTAPIClient_Internal_Category.h in Headers */ = {isa = PBXBuildFile; fileRef = A568C7A4D70625F83CB7023841BB18CA /* BTAPIClient_Internal_Category.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B97EB003D9484E754A23F9E644DE434 /* BTDropInRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B5C73A2B50D1AEC99B04AA56AAA6C4 /* BTDropInRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF45F24408414BA9F55A21010872045 /* BTCardNonce.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E216F0880CBCD7D5973B3F294EB9F1 /* BTCardNonce.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1DB969DF7B0E68965BEA5F65ABE07948 /* BTCardRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEC337AE7C9BC7449D9B023A194D27A /* BTCardRequest.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1F7AFAD7CF2C0284B347BF71CDABB823 /* BraintreeDropIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 53BAB99385F5CDE361A599DBB0F761E0 /* BraintreeDropIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F80CE82899522B2A7C19ECF5D740EFE /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C73342AA063852FD7C0A0ADF5F3119AD /* es.lproj */; };
+		1FD985E49635AF1F332EB56EB26A4574 /* BTAPIClient_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 469B331E089432A8B07748E5E103D9D4 /* BTAPIClient_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21293613FC31F9F2B8904D2B17E5B280 /* BTCardFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 660398B5A71D73D974480834712466CF /* BTCardFormViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		218E7717FA5959F487DB63E9EB6BEDD4 /* BraintreeCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 244CBEA15FC6DFE2232B4BDD79926705 /* BraintreeCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233A6CCA9C8A86487035D18ABCBA8AB3 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E1342E41478BE7C4ED19F81FC2A13A91 /* pt.lproj */; };
+		2383A5A43BDA79FA65DD67DDEFAEBAE7 /* BTClientToken.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C993A2C2DE3CE2C6609AFAC8C143A7 /* BTClientToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B1F6912641F3A57BE652C9172A9367 /* BTDropInController.h in Headers */ = {isa = PBXBuildFile; fileRef = B37238998A0C24A2DE6255065108A664 /* BTDropInController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23BD28A1DBCF89ED6BEBF13D0D4A5B03 /* UIColor+BTUIK.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD13AC22C1E213ED2267518111C1361 /* UIColor+BTUIK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24D3A9C0EEF7B026E73880BE6DF85110 /* BTEnrollmentVerificationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C55DBD3E21F80CCA12DE5F22D3BD980 /* BTEnrollmentVerificationViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		251DFC8CC4F3BA5281E649AF18F83F7E /* BTUIKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C6150A027752F15CD6C92D78C7466CA7 /* BTUIKTextField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2695B102DA7405AFD4E9379B876A26B5 /* BTAnalyticsMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = A067BE3309626564E2E6D3F324E9DCAC /* BTAnalyticsMetadata.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2712656FCE95CDA69FAFD7E6EDE1206C /* BTUIKDinersClubVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 360B45C26C180BB32AEDF0C2C3D0EF78 /* BTUIKDinersClubVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2787A1F795EEEAB801E7E9D8FB389DE1 /* BTAppSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838D740925391FBE63F7754395D01FA /* BTAppSwitch.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		27F72CC57521F05B8834AEFE4CBC12AE /* BTUIKApplePayMarkVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 609CD9A6DA703B8A4B0EA5547B320127 /* BTUIKApplePayMarkVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28279A6D44D3FE5E6A7F000E0ED4E78A /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E9B70D4DB2E8E51602ED70DC6A4110D7 /* ja.lproj */; };
+		291D3CABAF10498A0DF00F4238521531 /* BTAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7250E41834F6E40A945681A8FC87E430 /* BTAPIClient.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		295FB42862EE8C76A53AB10E7EAAD9E8 /* BTUIKLargePayPalMonogramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF17F97598A7AF030754EC46E321F7F /* BTUIKLargePayPalMonogramCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		297F6CF0D63A4078C8199BBF02084F97 /* BTUIKUnionPayVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D00B8DAD2C8DAEA033FBE80DF06F634 /* BTUIKUnionPayVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AA486AC1D01CF679031C9162BE84921 /* BTCardRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A47A8E8DD05A411D92E26E37D4287791 /* BTCardRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B3490484226D607E20AA8F1A071C4FB /* BTUIKLargeVenmoMonogramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 071F1172F1032274D227C712E733491A /* BTUIKLargeVenmoMonogramCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2BCEE58EB685424FAE9F91E36F49BAFF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700A44B5BC52512674DA20B4D131B5CD /* AddressBook.framework */; };
+		2C4ABD6F1E4CACCF949CA0EBA4608333 /* BTUIKCVVBackVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A10978FCE891B76585A568A70B58AD /* BTUIKCVVBackVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F32B62C31ADFF598FB6B47377AEC243 /* BTUIKLargeDiscoverVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3965436CC2686C91C2FADDBDC0D27 /* BTUIKLargeDiscoverVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F839CF9F736A095D7B1F7F7AA8246E0 /* BTUIKMobileCountryCodeFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C414A07821A3A22261F2AA57552499 /* BTUIKMobileCountryCodeFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		33E6E575B3EDAAA945B0B5FEF9D8ACA5 /* BTCard_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 358AB6AE3D5CF60483B239B78C5A83AA /* BTCard_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35447112E8E872E75BB5309823CBC4B2 /* BTUIKCVVBackVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAF97F2017000D035DC34A42C4192B /* BTUIKCVVBackVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		360FC1C0634EBB57A2B1A3B7679C08A8 /* BTAnalyticsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AFD526532E933EB8545B50F8168FD6 /* BTAnalyticsService.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		364C5AD50A91050B3E372A636C8BA396 /* Braintree-UIKit-Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2915393B76D49B154BF19434C2F8361B /* Braintree-UIKit-Localization.bundle */; };
+		3659ED16CE912FE30D9D8BF69CE06DD8 /* BTUIKCardType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3C2761FFB563F3F08D9BD7D513F0B9 /* BTUIKCardType.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3CCC9FEA225662D25C80F5673B19E86B /* BTCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 461BB76847DBBA6FAEFBA2DE640C1E19 /* BTCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D4327A7AE7BB1CFF9D04A6F31AFAA26 /* BTUIKCardExpirationValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6317331471B42ACE6F4A539966046577 /* BTUIKCardExpirationValidator.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F8CF0822349711CC088CE8FA2A557CE /* BTAnalyticsMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA17AB3DB1194557C808C238C9BA14B /* BTAnalyticsMetadata.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		400375184DBF1AC851DDCA447E6B06DA /* BTUIKPayPalWordmarkVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = C853FA6F6A494863EF053B9E7E681F86 /* BTUIKPayPalWordmarkVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		40884B4652751490DAC02873EFCE016C /* BTUIKLargeUnionPayVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E1617F6526E045030378A6AFE73B45 /* BTUIKLargeUnionPayVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43A83263D2181D00E4722D23FAA44325 /* BTCardClient.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BE189CF717ACC1753B7DC9E7C2E098 /* BTCardClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B5BDC1732F8277C87E171BCACAA266 /* BTCardCapabilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1117281C682ADAE8375F756F1B7A07CC /* BTCardCapabilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		448AAAE28E47A9096D849C9F27329E5D /* BTUIKLargeApplePayMarkVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7794E5ED1E57EC4303FCCEB2D85B61A9 /* BTUIKLargeApplePayMarkVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44A23CF8FE9FDD2F603D88BBBF003B92 /* BTDropInRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9E28C3DB3E31D1949547C7EE1DABD /* BTDropInRequest.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46200BA2B238CF3505E5BC72F6555546 /* BTUIKLargeJCBVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 491EFBE140885BD732BD17593B604140 /* BTUIKLargeJCBVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		472B430711C51C1075868BF7656AEE19 /* BTUIKLargeDinersClubVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 628680122799507D8994ADDD65707EDF /* BTUIKLargeDinersClubVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47AAA8AB7E61105BBA346253771F7AE5 /* BTUIKCoinbaseMonogramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC572A2AA097DE414D2E314330DA3C48 /* BTUIKCoinbaseMonogramCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		480AC1DE9C97D9AEE82A6FB1C77CE457 /* BTUIKVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = F798D10FA876B489DC3BBB8C1FAC6F7C /* BTUIKVectorArtView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487AE2A19948E4B996EDF43D85F0A280 /* BTUIPaymentMethodCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E054E2100572DC462160C31E53A20674 /* BTUIPaymentMethodCollectionViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4967033DEAA02E28868E1FD7B7A3F597 /* BTDropInOverrides.h in Headers */ = {isa = PBXBuildFile; fileRef = 423349BE2ECF0109933942FD1B1B4DA0 /* BTDropInOverrides.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49FDD61617FFE6F8957482A7DC6F9063 /* BTUIKLargeMaestroVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = D775357EEA090322D15C20ECB5740DF3 /* BTUIKLargeMaestroVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BC7690192CA9820F09E5A260289E134 /* BTUIKLargeVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = D73FA307C6426BB8036ACEEDA5EFEA77 /* BTUIKLargeVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C1C60149BD9563EE7252CF64681BE55 /* Braintree-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC1DBCD2788C806A46CD2534D2268C2 /* Braintree-dummy.m */; };
+		4D551D523E3650B8F903DCB416F21909 /* BTBinData.m in Sources */ = {isa = PBXBuildFile; fileRef = 56140151532155646DD045CBEDF945CE /* BTBinData.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4F22690D571B2706AD9EA224E850CA4B /* BTAPIHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = D598E1900351791E15FA4CC0A3477117 /* BTAPIHTTP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4FC6A0D15A6B36E7C4E14DC50E8338A6 /* BTUIKLargeJCBVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE1D38B0AEEBBF02D0575C0845193E5 /* BTUIKLargeJCBVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		506711D05D33C4B4C3F636E9A56A59AF /* BTUIKSecurityCodeFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4BC5AC0358CB2EC360ED4D94B4791C /* BTUIKSecurityCodeFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		510CC9FAA35CA7800381F90F131E933A /* BTClientToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FFA28BAAA9FE6988A1D00C4F70FDDB /* BTClientToken.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		515C1015A4E0293DACE8805E9CD080DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AF2E4C1E7019FAE614D5A26A6BA16 /* Foundation.framework */; };
+		5400B2B95EFA8F77FC11481F9ABBA0CE /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A6FD620F63B38A6FA8E50EC4603453A4 /* he.lproj */; };
+		56167CA8BEA34C92ED5322ED1096959D /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 53835D95AC318BC572BD202F66F390F3 /* nb.lproj */; };
+		5691C1A011CF7A4177E333CDCD79A8F3 /* BTErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 375E17CFF1D686ACF4EE60BFE30CE293 /* BTErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C293CE4134D28F5BD5B59549AAEC05 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0242219E19A5636C0F15FFFC3FCC5D6A /* zh-Hans.lproj */; };
+		5701C32CC91A58879745448210920011 /* BTCardClient+UnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9A89B8C7E684E47CE5A2736477021E /* BTCardClient+UnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57EB1FD0F6667C2B1A28228FC0AAC7CE /* BTUIKExpiryInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9EBBB7FFFF14A83E94FED4D9FDFA00 /* BTUIKExpiryInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AC2361272BC9BA29A83BE3188E7CC76 /* BTUIKDiscoverVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = C168BEC8C42E2393825733D0C57C3E7D /* BTUIKDiscoverVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B047057AA655DE159B858700CA37004 /* BTUIKLargeCoinbaseMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = E48B65C3812EFA8B31B903A8507634D6 /* BTUIKLargeCoinbaseMonogramCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B423CCC64BBF893FF83A05A4D2FF634 /* BTHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = A65E66EF57E92D28995D1094B1BEFEEB /* BTHTTP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CBF3BCFFE2E7AAC9C277D2AE9639FB8 /* BTUIKLargeVisaVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3343C16CD4D80CF66BA36BA55242BF /* BTUIKLargeVisaVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6012F02D489409C30279BADEC25C1628 /* BTUIKCardExpiryFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B696C21CC552F46A8643045859D0AA /* BTUIKCardExpiryFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6054F2E050D2DE9B2FD241E1CE83D248 /* BTUIKUnionPayVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 810859BE8E15D0826F928B22E275CC2C /* BTUIKUnionPayVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		617356227AD2DED84A2174DB4689D0BE /* BTUIKLargeDinersClubVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE87109CB50DC6EC1DCA601F140AC978 /* BTUIKLargeDinersClubVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		627A9D2615EDE58233F7D8F4501A28F6 /* BTUIKCardNumberFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = B11D7FEC7353C127C7899EEBCC208BB0 /* BTUIKCardNumberFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		647FE4810AF0A3966AD144ABE4802665 /* BTVaultManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230137D17604AE7FC90A9AE7F7D612E9 /* BTVaultManagementViewController.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6488594BF2CBACC6A6ABC4EB9D5FC86E /* BTUIKVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 622A9BB5696EE37EB2C626286F8D4E82 /* BTUIKVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		65A50E098B977011DB8DD3E6C788CCE7 /* BTUIKAmExVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6C7E529814CAE869D699E83166FA91 /* BTUIKAmExVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		662CD64F670444E62633D58229705913 /* BraintreeDropIn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF8CCE685DC5BCF3B69B5D78F03D6F8 /* BraintreeDropIn-dummy.m */; };
+		6679861CBFB00EF66819F3077683FD2D /* BTClientMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 982A656EECCAD8085C8CFBBB9FA0DEE9 /* BTClientMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67DD1FDD7CF2A902F70B7BE561C711F4 /* BTUIKJCBVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0FF0832EBDD75FB61BA63F153F1707 /* BTUIKJCBVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		684F42853CE5498AE6A3784B969EEDD6 /* BTPostalAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = FC78D6388CA7202F402CD389345BA2F5 /* BTPostalAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		690A6360893B1446DAE19DB40770FDFD /* Braintree-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26ABE5CD1E96D3F00FD2ADB6DFAAAE28 /* Braintree-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFECFE08D939C3ABE37C072F3422F3B /* BTConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C405B7F518BCDC230BA195F48FEF5D0 /* BTConfiguration.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6BD0AF44E7455DFD4A30C914A639B931 /* BTDropInController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969D60C3D99ACC567C169353FA1CB191 /* BTDropInController.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E59DF9F3275D18E02D5BE8A85D85E42 /* BTUIKPostalCodeFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C35532C704A1DA71FDB0BC9994979 /* BTUIKPostalCodeFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F624DAA8607313BEABB3A6DECC3843B /* BTVaultManagementViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC61322B89076F41A7F0A396DCA1D43 /* BTVaultManagementViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		716D8730629E03473BDCCB3C5B1E05CA /* BTUIKCVVFrontVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8BB3A91340172E7C5AABD07528F1EB /* BTUIKCVVFrontVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71ADC882307478BC7FDDE8A3DDD4B9F1 /* BraintreeUnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = A53C0FEFA7BF375A9265C2B4E2FA0367 /* BraintreeUnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CDDAF6213FCAF095A25D37AD7F522E /* BTUIKPayPalWordmarkCompactVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BF14CD22414355A902F479AB859E3B /* BTUIKPayPalWordmarkCompactVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		747F9ADAFF299117684AFA7F627FF0B0 /* BTUIKFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FF737F034B8CE6704681AD8CD7B267 /* BTUIKFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		74CA5A65B626DD2F1838BF1D763590AD /* BTUIKCardVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = E888802D467E067FA6F843098DC45E93 /* BTUIKCardVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		74FCBE21A57A1905CF82B8666B2D3E3E /* BTKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E02031CB1F9A598E8FF8E45AD5D142 /* BTKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75880BA968AF1FA75854C20395CD63A3 /* BTViewControllerPresentingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C97405D4BC1A9957544A4B8DDE96AB91 /* BTViewControllerPresentingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		765434907FB6904D7B065E20554F25EB /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 429F9056A8BA1E7E24C4F6AC8F35D0B6 /* sv.lproj */; };
+		77B422A63139D2E5D4CBDC6E53A3F4F5 /* BTUIKMobileNumberFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1499B23FC174EA688C677AD903737E /* BTUIKMobileNumberFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D972C27B18761A56A348E531A58FEC /* BTPaymentSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD5BEF87C582069B822B9B0E8535ADF /* BTPaymentSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781BFBE6B0F0BEBC41C544D3A629C20A /* BTKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1435BE0DF9A09CC1C9F449011CC413A2 /* BTKeychain.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		785D005677F24A527E8F3943181F8D3C /* BTUIKMasterCardVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C1017396A08F782110B4F423525B6B /* BTUIKMasterCardVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		792D1940CE8812B9CF0869CD289626D2 /* BTLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B5A253CB791F0396564A0980DE1087 /* BTLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7952B1C681E75ECE6DF1F3914EC195CF /* BTUIKLargeApplePayMarkVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC7C229687ED9A532E74B24A118EC8 /* BTUIKLargeApplePayMarkVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7A0D54DA2EBA1FCD068C270BAD9CBF44 /* BTUIKInputAccessoryToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1271FC3F44279A8F86176F88DBB0938 /* BTUIKInputAccessoryToolbar.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C1859A1775849713C083D14DCBC9E90 /* BTErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 188195D7B4277C92444CF3FBD97D59BA /* BTErrors.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E50DC622B5CB580AB79186BECB5EB0A /* BTUIKLargeUnknownCardVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E5ADDE5B848D3575475C044DEAAC8C /* BTUIKLargeUnknownCardVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7F1B8E609E216338B7BF7ED6EA6C1880 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8CA023246CFF2299AF7658AF991829ED /* ko.lproj */; };
+		7FD4B7ECB490EFB3A929EA03F9F8DFFD /* BTUIKCVVFrontVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = A369887E341322706C15015E1D6A61BF /* BTUIKCVVFrontVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FFE97F3F84C64CC0A6EBEC697175022 /* BTUIKExpiryInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2844481553ACB690CB82338110BF0D /* BTUIKExpiryInputView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80238C5DE7DE52BBEF81972FF48FA8FD /* BTAppSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA029F0E86D211A403325F9AF8D5ACB /* BTAppSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D77000DBEA5E557519D13B7809ADFF /* BTUIKInputAccessoryToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9C70BF39DD6ADF347E9A02F231F638 /* BTUIKInputAccessoryToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80D9BD09AC1FFE5C288B27250D32F997 /* BTUIKLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A19DC05F318A00ADA707048B9713F6A /* BTUIKLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8723D4AAE14F2BF72D2452F26175FDC1 /* BTUIKCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F438ECE63ECCC16B4A6EB797E83DD9CE /* BTUIKCollectionReusableView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		87F9F83841B1981D9D8AED1B3690AB21 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AA21761AE40B8AE6F1E107115A65CCC2 /* zh-Hant.lproj */; };
+		88FA947F2DC2476BA180752693B5C7CC /* BraintreeDropIn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F16CF91150AFD78A592CF6E8711DF4 /* BraintreeDropIn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A51495CB7E5851BCEAF4F4F6E1FFA9A /* BTUIKCardNumberFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9ED169461ECC3390876583DF92C91B /* BTUIKCardNumberFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B20CA35B2DA54729B63A7382D2ECA7B /* BTBinData.h in Headers */ = {isa = PBXBuildFile; fileRef = F88811FE88CBC1C06017F9A71E7E8CD8 /* BTBinData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BC16E2274181D9ABEBDCD210D30FB86 /* BTTokenizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B84A8983CD2F78B3AE5E9E56725415C /* BTTokenizationService.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C1E56E4296703E53616B9C27555FBC2 /* BTUIKLargeCoinbaseMonogramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C92EDF68D4E71FC48C00618428F555 /* BTUIKLargeCoinbaseMonogramCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8D3998A7D1BFB5B48B09B3BE01E7A46B /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DBA9FA21F25125AD018D144B2358D68B /* fr.lproj */; };
+		8D69014192C81296EB1B8B5311F84E5B /* BTPaymentMethodNonce.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0456D991742F8957836049493516B2 /* BTPaymentMethodNonce.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8EA9FA34EF40B57522797550A581E59C /* BTAPIPinnedCertificates.m in Sources */ = {isa = PBXBuildFile; fileRef = 6673EF157E00ED2C79FA0CE0B612F10A /* BTAPIPinnedCertificates.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		90EEE02C65ECBEAA122942D9956D0F37 /* BTURLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 441F536A8D6A614650487FF9675870A8 /* BTURLUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91C6006132703529D1A4639B2BBA07FA /* BTPaymentMethodNonceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = C85552BD9122756EF1256EFC236FD511 /* BTPaymentMethodNonceParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DF5E453FF2F54079753A2F6CC769D7 /* BTUIKMobileNumberFormField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED3E977E761AB526F48BB86F530D1F2 /* BTUIKMobileNumberFormField.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		933C039EE649E23673F7642E8019FF95 /* BTDropInBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DB697E936514B7F2D7E48F5E634C8381 /* BTDropInBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9363B19D0522C5F399534D0194AB36A1 /* BTUIKSecurityCodeFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA63F3BC21E9F5A28F621527720272A /* BTUIKSecurityCodeFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944FBE94944654F5CB2EE294703236B4 /* BTUIKFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = 71FD981AD43BBE2F533E36ED3E50946A /* BTUIKFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959CC26382B2BE294547169C6CE2F707 /* BTUIKPostalCodeFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C225601067A8AEC6B7591AB40BCE5E /* BTUIKPostalCodeFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95BC9C9A161534A31E54B63D002A68A2 /* BTDropInResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2DD5F57503CAAF0C0CD62FFBF5C704 /* BTDropInResult.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96F3C9C7B5DBBE320B6288159C0A7849 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1ED3DDB5E0A7EA595467F79BA6322685 /* it.lproj */; };
+		9A53ACA10EF94B7D78A98C705C314965 /* BTDropInBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E9652809C0230ED935AAA894378B3A /* BTDropInBaseViewController.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9A8420706E48A173282F6BA79BA15A29 /* BTUIKVisaVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 206F83926DA7EB8BDAFFC29E92DDAEF2 /* BTUIKVisaVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C434F2C2938478898FEEF66DFDD6EF0 /* BTUIKAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 30112AAF0F8DF212745B90D368C4B466 /* BTUIKAppearance.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D7DB8F8C302023FB59108F05F793B9D /* Braintree-Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA388784EAC934B5380D96E7094DC17 /* Braintree-Version.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DF66F49978760B29CAE16F304A75A90 /* BTUIKPayPalMonogramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF94B0737FF6032F45255A351932041 /* BTUIKPayPalMonogramCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E389FAD09180BA4DAB2C2BB898B2FDE /* BTTokenizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C48700D314D0C2FF41CEF3B43205391 /* BTTokenizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C00E3636C56F7F60A406BD68455CD5 /* BTUIKLargeUnknownCardVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = D58C7DBACDB76F3DE8DF8B8B8FEE18B7 /* BTUIKLargeUnknownCardVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A156F7543BCE37BCADF0E38CE124A9C5 /* Braintree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D1B99217491066ED4624F99A0D4086 /* Braintree.framework */; };
+		A193A4D98B53835FE05776EA9B63F4AD /* BTUIKCoinbaseMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD07C9FA8426C77DB78930CD9DD5B081 /* BTUIKCoinbaseMonogramCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A214EEA3BB3AB96A1482461C9E902225 /* BTUIKPayPalWordmarkCompactVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89136160D03EC05185966D9F54C3C848 /* BTUIKPayPalWordmarkCompactVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A35DB28CCDE3D44C657418AD7E51706E /* UIColor+BTUIK.m in Sources */ = {isa = PBXBuildFile; fileRef = DF042C2A1D765E6B7DF249F46517E8E1 /* UIColor+BTUIK.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A4B5FCDBC516A507D894803E5A2DD6EF /* BTConfiguration+UnionPay.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DA154BC63939C26B2DCDEA355E70A0 /* BTConfiguration+UnionPay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6FF12FA3184DF395AB088F4ADA6982C /* BTUIKApplePayMarkVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16EB076D3458827FFFB7B47E37650EC /* BTUIKApplePayMarkVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7652D9EDCCF77B5444244E1C595A75F /* BTPaymentMethodNonce.h in Headers */ = {isa = PBXBuildFile; fileRef = 4924F900452A94C0FA624DA4653EB42C /* BTPaymentMethodNonce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E6EB867EDA14E26905D92995150CFC /* BTUIKLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6656B6FC05B2F9A568347C9662F88 /* BTUIKLocalizedString.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A85319F71B6220A0826B09900955F41E /* BTUIKMobileCountryCodeFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = A39A1D1317B10EFB10B8D542CED98220 /* BTUIKMobileCountryCodeFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C896D43EB0214FEE7CACD05040EFB0 /* BTUIKMaestroVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA004378187EC9BCBFDD57BDDDC3664 /* BTUIKMaestroVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A90D7AC54E76B3041274ABB4623E7107 /* BTUIKVenmoWordmarkVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B101E4A1140C890DA0F8E2D26AF768 /* BTUIKVenmoWordmarkVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB99646501C2FDB76C127DD97601AA9D /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DF50A6616A3740C29F0EE5545656AD12 /* pl.lproj */; };
+		AC16E52FB997D5A0368C568F57639984 /* BTUIKLargeAmExVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0A1DAE2BCEA5EFD7A29A398B87A5D2 /* BTUIKLargeAmExVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC2B88A47BC984A5EF32B94FAC68C992 /* BTUIKPayPalMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D77559379F2E1423DE7D4259B09402F /* BTUIKPayPalMonogramCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADFB8DFBD493B217E8F12E494D676143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CDA87DF260201D6AD9D42F48E6248A /* UIKit.framework */; };
+		AE6920413C8B9DF1C189DA273C0513E7 /* BTUIKViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D341956098375E1C12AECEE1207C31 /* BTUIKViewUtil.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF31281DEB573C25F205746BC2DAC859 /* BTCardClient+UnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F31CFC9C97FABAE318AC39D6D61E4F3 /* BTCardClient+UnionPay.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B1DE4F6A107C296C491025C3FFCF1DC7 /* BTUIKCardListLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFEDDD3092FC4DE30F5A5D24C9FB822 /* BTUIKCardListLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2DFB5F8581D4DF28281E0C5A348DC41 /* BTUIKBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 05EA7EED976A768867821CCE1F54DC7A /* BTUIKBarButtonItem.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B2EE097343B2860D2CF7D3B4973CC713 /* BraintreeCore.h in Headers */ = {isa = PBXBuildFile; fileRef = C433B98E78E028F12F20342A39C8BE47 /* BraintreeCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A2042952F18AFC6D6E6882B1669407 /* BTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 291AEDE64C7A45383EF97B14345EC6F6 /* BTLogger.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8D22ACB78096F84BF77CE6FA2C4179B /* BTUIKCardListLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886FEBA1515F16EB026C14B95DF6221 /* BTUIKCardListLabel.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B983BCF73AE59D03E946E3A07BFBA664 /* BTUIKAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = A63B676F4B2202A8ED34FFBF64B62D43 /* BTUIKAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB10B1D320DC4B33D45F665B5395F196 /* BTUIKCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C8518701A3AF1A06D5BA6433FF591A /* BTUIKCollectionReusableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB942A9CD2D3C7AAF1E8FE70FA8C5BC4 /* BTCardClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFBC86B5ED955F1C40844BE02709DBA /* BTCardClient.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BC87E5D8E18B17C608F72E3CF57DA482 /* BTUIKCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4797290A4145F2C698144CE4864B0469 /* BTUIKCardType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCE944FE6AD8A6115A0A377F60216F25 /* BTConfiguration+UnionPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719D090B08582DA09A07CC2C9F69AAD /* BTConfiguration+UnionPay.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE13F85FE3B98D6BFF9A88629D7F50DC /* BTAnalyticsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 356122D192EFE0640A1A4D6881875DA0 /* BTAnalyticsService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2D38527152AC3AA8BAF27CFFF6684E2 /* BTHTTPErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AB1AD07C91F648891E1A248052DAF5 /* BTHTTPErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C401F936F5771800C0758485E5A52431 /* BTUIKLargeMasterCardVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 684D9E05B8A0454A47271E3DA6402DD4 /* BTUIKLargeMasterCardVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C59A2FB2B2A08A61D7316CD51FD9558D /* BTUIKPaymentOptionType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6F1A8E2EAE25100C4349F88B1FD0E4 /* BTUIKPaymentOptionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C667D6C4D80F4B6D24BF31CE0234437E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AF2E4C1E7019FAE614D5A26A6BA16 /* Foundation.framework */; };
+		C6A6E77AFDFA8A0D1D98F2559926C5AB /* BTUIKVisualAssetType.h in Headers */ = {isa = PBXBuildFile; fileRef = B0649355C6F2159A95F88A1A150D0961 /* BTUIKVisualAssetType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C834A928267704AA2E8C9498C00B2D9F /* BTEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0D84CE22AF8F75BD86737859DFCB88 /* BTEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8E5B585D579A31005DCC25EB809CA99 /* Pods-Braintree Tutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 128D8673D59ED1037FF123564A44C9EE /* Pods-Braintree Tutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA4251F2553C5118186E311A0242ED3D /* BTUIKLargeVisaVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E97B230D305C0FCACE025B4CAB3DDCB /* BTUIKLargeVisaVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB0FBD9E2A099D0BA1CA1AB963FE870B /* BTAPIHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = A933B48F4DC4FB58FA1A2AA364240515 /* BTAPIHTTP.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CC84A470333D7FD318CE145FA846D792 /* BTHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 285B3F7800D3DB7FF863C5B07D647C26 /* BTHTTP.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CD0DCE67150E15CDAFB401175D75026D /* BTPostalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DDE1D4DE94B9E85CCA0E34425ED13B /* BTPostalAddress.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CEC8C5CE528971EDDF1FEE05043E6461 /* BTCardCapabilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FED0F181B0A3FE19F1298140366E2E7 /* BTCardCapabilities.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D065CE4300DDE0AF5AB0D3545E9DFC01 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 39489CF321F68D789A7ADEEF6EE2CD79 /* ar.lproj */; };
+		D08A7EC46653C3E7829A0E1E177C265B /* BTClientMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B585B7D7212D171A3A53BDFC1FA465 /* BTClientMetadata.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D128365739E4D74D62BA56B0EB24FD90 /* BTUIKVenmoMonogramCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B83F92CD7C39EC7D9B8E847BAD3E0CEF /* BTUIKVenmoMonogramCardView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1659BEFA47FEC8D5E9B1EBBC8D48172 /* BTUIKLargeDiscoverVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F8269630E42AF89A912ADB756585FC /* BTUIKLargeDiscoverVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D40F24230BB4F707A7812C2582C988C0 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9E91950D2664D29FDDF45D1CA195F64E /* de.lproj */; };
+		D57623CA32844F915D0A1244272F2BD3 /* BTUIKCardExpirationValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CD4E86CD0F67F0306E8FA5CA5DDA1C /* BTUIKCardExpirationValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7C5F3D4515F58B1E05FD72A0634262B /* Pods-Braintree Tutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8668016D3C607A3AF9D0398BABBCC4 /* Pods-Braintree Tutorial-dummy.m */; };
+		D815D0CF86553CDA3445C7CE78483519 /* BTUIKMasterCardVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = F56AE987099AA9CE279A985C163129BC /* BTUIKMasterCardVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D8429C1F34ACC0FA35FE68FD913BFD5E /* BTUIKLargePayPalMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 316AE8D1F6B21CDD4A18F8816444C970 /* BTUIKLargePayPalMonogramCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D85C4AA0B82E76C8B9A3F4DCE4ADD0FF /* BTUIKJCBVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F9E8E6B4C2FFB6609F4B1ACF21BAD /* BTUIKJCBVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D8918B0A144B8194F9931BE143B69FCF /* BTUIKLargeVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DF83FF6B0977D850FA482DEA28C94F /* BTUIKLargeVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8DDA284579295840E5D3E22B2F66152 /* BTUIKDiscoverVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = F557F88ADC8855897F20AEC0D4BC6D85 /* BTUIKDiscoverVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9E6D62E7904CFB8FE9C88F1B6F620D0 /* BTDropInResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 60262C4A6C16CC7F24EE7A6D4846953E /* BTDropInResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA8467E46C43EB04157296796D70B448 /* BTUIKVenmoMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = E188126D71C68EA2545E6291387F892B /* BTUIKVenmoMonogramCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DB4D5EA2F9E665D8ED02214DD4ACEBB9 /* BTJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C955E23AE5124DF518EB4A2797676F /* BTJSON.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DB7DD18D838986C7E7D73D2BBE459B97 /* BTUIKUnknownCardVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304A28889AF9A257DBAB5BC68F1C3D6 /* BTUIKUnknownCardVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD8D1F26B4F49258EC921C7CF36810CC /* BTUIKMaestroVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = B964A70402CAF8D68890DD0CE615819F /* BTUIKMaestroVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE8BD4D08BE5DF96E6C190CFBAD00808 /* BTCard.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFDD41F57D610C50400C5C9AC6363BB /* BTCard.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E09AEC7DA265DC801351430FC40738DA /* BTUIKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CBD7CF221C308DF01ECC274F3D0F3DC9 /* BTUIKUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D5B1C6AC9D9C033F4C82CB838B19C4 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 307431D1C87CAB07ACFC72AB85FF349A /* tr.lproj */; };
+		E1C62CC1B15CC69C9CD67887A3B2C2E1 /* BTCardNonce.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADBED85A9E766D8B9383365D225C41B /* BTCardNonce.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BC805BFBB4817EFA7859B4A8F1EF77 /* BTUIPaymentMethodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF27787C0B685418564B396D74FBCE6 /* BTUIPaymentMethodCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E39BAB68E81BB4F54338A9BC8DBBA4E9 /* BTUIKLargeMaestroVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6DC2C57D79B8E4230B93101445714 /* BTUIKLargeMaestroVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E4E1E68CA16048C34D9F34D0FCA78D13 /* fr-CA.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 91934FE08A70535AAA94344B28C8FF74 /* fr-CA.lproj */; };
+		E608F6D293DF286565E73B1862E64A7C /* BTUIKCardVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3353C41E64C7BAFF27030283BB406181 /* BTUIKCardVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7E0CD1675F381DA9FE6C7A48637CF56 /* BTPaymentSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39C8D9112747F417EE4FF4821F66139 /* BTPaymentSelectionViewController.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E905F5C872EE74545E756A5CF1200722 /* BTLogger_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = F00145F56C882BEDB86EAF6F446276F5 /* BTLogger_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAAB600DD2EFD7EBD1BB477E5A4824CE /* BTCardNonce_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A37B2A1D0B6FE89ED840F265C9D300 /* BTCardNonce_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAF625E1416E8A3A7B91BAC0A650F39B /* BTUIKBarButtonItem_Internal_Declaration.h in Headers */ = {isa = PBXBuildFile; fileRef = BF1938CDFF43447D95F0CED8D1753C78 /* BTUIKBarButtonItem_Internal_Declaration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB0DD12B91F72AC9CC2141FAAE8FB899 /* BTJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B84E6302B580B4B3125988D19013E3 /* BTJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB787ED094648520CF5F9A609C7AE970 /* BTUIKDinersClubVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DA55B47986D658C77135C3012FC59C /* BTUIKDinersClubVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ECA3C3314183F202549C17FB841E68DA /* BTUIKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C356B1C86DF60604CCDC12D5C8F305 /* BTUIKTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE9DE4017D7FF4B168BF79E542F79C9 /* BTDropInPaymentSeletionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B76F3D26169F6FC15C4AC45959E1A255 /* BTDropInPaymentSeletionCell.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EED90E350A7829501AFFE408A2042EA3 /* BTUIKLargeAmExVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F7E6DCA9C60ECA2AAE23DC971D3662 /* BTUIKLargeAmExVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F0A4F3F311156E783D2AAC1A0B9B4E2C /* BTDropInOverrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1684CCE6321CFCD0B52BD53D238A6 /* BTDropInOverrides.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F295AA8C4BE7C35108131CFE3204AD7A /* BTDropInUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFC531E35634995915E891DF0652B17 /* BTDropInUIUtilities.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F2B74EC8C2AA42259C838E632CEFAD0F /* BTCardClient_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F48CB5411450B4AB93FD6A13A68672 /* BTCardClient_Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F34E457CD033213374E8A29D281018BB /* BTCardFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C9CA7DA1B1F63CA3398D9B365B1F40 /* BTCardFormViewController.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F38EFF0D288535F9E2258F23536BFD85 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D18DDD19DC21D8A5AD3B774C64F014CF /* en.lproj */; };
+		F47E7E8C6ADDEE69029F14E26376F619 /* BTUIKExpiryFormField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4E0877F77A2C15D4D55B974F9C79C9 /* BTUIKExpiryFormField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57AD7BBEB4B6AE59106BF98057CA256 /* BTAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAEB3C13A33EFAAD20B61D0728EDFD3 /* BTAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F587BE3E38F9D6AACD96FB5E18E2D24A /* BTConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 938F7D5B7D897CD539C233E26353EC2E /* BTConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F63DF81C060994EBFF61A8D32A922CD6 /* BTDropInPaymentSeletionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F8E94BC174102B10CDE96DD8DE8F8F /* BTDropInPaymentSeletionCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F65616D136C2FB41E39B5B9F33A9498D /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E222F3A99E26A710E09F0C11C968209D /* ru.lproj */; };
+		F6A42DA8DDA22B24110EC8AB48ED715B /* BTUIKLargeVenmoMonogramCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = FED73F49F2BBE0A7503B035CAD5330A9 /* BTUIKLargeVenmoMonogramCardView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8F84FB666493953217FB9F0347B0FAE /* BTUIKVisaVectorArtView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC8A2ABA5CA8ADD352F709FE76454D1 /* BTUIKVisaVectorArtView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F998B800DA96F53E0F80CA8D53A98439 /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3016AFCFDFF21B29080A28E0159E9BD9 /* da.lproj */; };
+		FB1F9E158B28B8BD5FAFB60C2DA9096B /* BTDropInUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4316D73688BE507A885A7676D8C7A4DC /* BTDropInUIUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB6BE3E2C797E485C4994EEB351662B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5AF2E4C1E7019FAE614D5A26A6BA16 /* Foundation.framework */; };
+		FBA040DD1D2388224AD7DFD8AF670B16 /* BTPaymentMethodNonceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 808B6856ED5989755530EFD853934996 /* BTPaymentMethodNonceParser.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC45A6A31E3BEB2261D79937D3F48ADD /* BTUIKBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E9062FDD4AE4A665CB91A2BF6A85FA /* BTUIKBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE0916FCB6F6790D56D500A86939055E /* BTUIKCardExpiryFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9093D21748BD9112F99C4E098D35A2 /* BTUIKCardExpiryFormat.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FEB7AC557BED206BE01DCFBCBB297BA8 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7A9F5444DD43263AB8F8548ADF111A09 /* th.lproj */; };
+		FED675C1BB4C9CCD9D0954D670DA8F5F /* BTUIKCoinbaseWordmarkVectorArtView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0364682180FC28E2CDAAF86CD5F4B8F /* BTUIKCoinbaseWordmarkVectorArtView.m */; settings = {COMPILER_FLAGS = "-Wall -Werror -Wextra -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B317916183AD43C4FCCB061DF497698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140C8CC830132704A5F6992797010FD1;
+			remoteInfo = Braintree;
+		};
+		5C0890864C6E4CF164726398FA084AB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA30AE2F278E324AFCEBDF36830228B3;
+			remoteInfo = BraintreeDropIn;
+		};
+		8A372674DC72D2D7422D1B9F74848C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140C8CC830132704A5F6992797010FD1;
+			remoteInfo = Braintree;
+		};
+		C1A0E6A0F8FDC55DC7CF0E8A85344F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42085DFC2D58A257A7A3A42EE901D28E;
+			remoteInfo = "BraintreeDropIn-Braintree-UIKit-Localization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F8269630E42AF89A912ADB756585FC /* BTUIKLargeDiscoverVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeDiscoverVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeDiscoverVectorArtView.h"; sourceTree = "<group>"; };
+		0242219E19A5636C0F15FFFC3FCC5D6A /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "BraintreeUIKit/Localization/zh-Hans.lproj"; sourceTree = "<group>"; };
+		045F9E8E6B4C2FFB6609F4B1ACF21BAD /* BTUIKJCBVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKJCBVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKJCBVectorArtView.m"; sourceTree = "<group>"; };
+		05EA7EED976A768867821CCE1F54DC7A /* BTUIKBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKBarButtonItem.m; path = BraintreeUIKit/Components/BTUIKBarButtonItem.m; sourceTree = "<group>"; };
+		05F8E94BC174102B10CDE96DD8DE8F8F /* BTDropInPaymentSeletionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInPaymentSeletionCell.h; path = "BraintreeDropIn/Custom Views/BTDropInPaymentSeletionCell.h"; sourceTree = "<group>"; };
+		06B3A2B8F1FB5255D5FB58C361A58457 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071F1172F1032274D227C712E733491A /* BTUIKLargeVenmoMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeVenmoMonogramCardView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVenmoMonogramCardView.m"; sourceTree = "<group>"; };
+		0AA938503532F9B674A01238E4C4DF39 /* Pods-Braintree Tutorial-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Braintree Tutorial-resources.sh"; sourceTree = "<group>"; };
+		0CD5BEF87C582069B822B9B0E8535ADF /* BTPaymentSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentSelectionViewController.h; path = BraintreeDropIn/Public/BTPaymentSelectionViewController.h; sourceTree = "<group>"; };
+		0CF899C9DE2A7FB875CB188B6BF0959E /* BTUIKViewUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKViewUtil.h; path = BraintreeUIKit/Public/BTUIKViewUtil.h; sourceTree = "<group>"; };
+		0D6F1A8E2EAE25100C4349F88B1FD0E4 /* BTUIKPaymentOptionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPaymentOptionType.h; path = BraintreeUIKit/Public/BTUIKPaymentOptionType.h; sourceTree = "<group>"; };
+		0D77559379F2E1423DE7D4259B09402F /* BTUIKPayPalMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPayPalMonogramCardView.h; path = "BraintreeUIKit/Vector Art/BTUIKPayPalMonogramCardView.h"; sourceTree = "<group>"; };
+		0FED0F181B0A3FE19F1298140366E2E7 /* BTCardCapabilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardCapabilities.m; path = BraintreeUnionPay/BTCardCapabilities.m; sourceTree = "<group>"; };
+		100549E6F572F0F644447B0D3449FDC0 /* Braintree-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Braintree-prefix.pch"; sourceTree = "<group>"; };
+		10B5C73A2B50D1AEC99B04AA56AAA6C4 /* BTDropInRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInRequest.h; path = BraintreeDropIn/Public/BTDropInRequest.h; sourceTree = "<group>"; };
+		10CDA87DF260201D6AD9D42F48E6248A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		10FF737F034B8CE6704681AD8CD7B267 /* BTUIKFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKFormField.m; path = BraintreeUIKit/Components/BTUIKFormField.m; sourceTree = "<group>"; };
+		1117281C682ADAE8375F756F1B7A07CC /* BTCardCapabilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardCapabilities.h; path = BraintreeUnionPay/Public/BTCardCapabilities.h; sourceTree = "<group>"; };
+		128D8673D59ED1037FF123564A44C9EE /* Pods-Braintree Tutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Braintree Tutorial-umbrella.h"; sourceTree = "<group>"; };
+		1304A28889AF9A257DBAB5BC68F1C3D6 /* BTUIKUnknownCardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKUnknownCardVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKUnknownCardVectorArtView.m"; sourceTree = "<group>"; };
+		1435BE0DF9A09CC1C9F449011CC413A2 /* BTKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTKeychain.m; path = BraintreeCore/BTKeychain.m; sourceTree = "<group>"; };
+		15F48CB5411450B4AB93FD6A13A68672 /* BTCardClient_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardClient_Internal.h; path = BraintreeCard/BTCardClient_Internal.h; sourceTree = "<group>"; };
+		16DA154BC63939C26B2DCDEA355E70A0 /* BTConfiguration+UnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BTConfiguration+UnionPay.h"; path = "BraintreeUnionPay/Public/BTConfiguration+UnionPay.h"; sourceTree = "<group>"; };
+		17E9062FDD4AE4A665CB91A2BF6A85FA /* BTUIKBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKBarButtonItem.h; path = BraintreeUIKit/Components/BTUIKBarButtonItem.h; sourceTree = "<group>"; };
+		1838D740925391FBE63F7754395D01FA /* BTAppSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAppSwitch.m; path = BraintreeCore/BTAppSwitch.m; sourceTree = "<group>"; };
+		188195D7B4277C92444CF3FBD97D59BA /* BTErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTErrors.m; path = BraintreeCore/BTErrors.m; sourceTree = "<group>"; };
+		1999E3BFD07FC0521FE5098F7BCB6A71 /* BraintreeDropIn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BraintreeDropIn.modulemap; sourceTree = "<group>"; };
+		1DAAF97F2017000D035DC34A42C4192B /* BTUIKCVVBackVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCVVBackVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKCVVBackVectorArtView.m"; sourceTree = "<group>"; };
+		1ED3DDB5E0A7EA595467F79BA6322685 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = BraintreeUIKit/Localization/it.lproj; sourceTree = "<group>"; };
+		206F83926DA7EB8BDAFFC29E92DDAEF2 /* BTUIKVisaVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKVisaVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKVisaVectorArtView.m"; sourceTree = "<group>"; };
+		20FCF784CE2EEBDF9048ADC0E000C0F9 /* Pods-Braintree Tutorial-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Braintree Tutorial-frameworks.sh"; sourceTree = "<group>"; };
+		230137D17604AE7FC90A9AE7F7D612E9 /* BTVaultManagementViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTVaultManagementViewController.m; path = BraintreeDropIn/BTVaultManagementViewController.m; sourceTree = "<group>"; };
+		230C35532C704A1DA71FDB0BC9994979 /* BTUIKPostalCodeFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPostalCodeFormField.m; path = BraintreeUIKit/Components/BTUIKPostalCodeFormField.m; sourceTree = "<group>"; };
+		244CBEA15FC6DFE2232B4BDD79926705 /* BraintreeCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraintreeCard.h; path = BraintreeCard/Public/BraintreeCard.h; sourceTree = "<group>"; };
+		25B585B7D7212D171A3A53BDFC1FA465 /* BTClientMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTClientMetadata.m; path = BraintreeCore/BTClientMetadata.m; sourceTree = "<group>"; };
+		26ABE5CD1E96D3F00FD2ADB6DFAAAE28 /* Braintree-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Braintree-umbrella.h"; sourceTree = "<group>"; };
+		285B3F7800D3DB7FF863C5B07D647C26 /* BTHTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTHTTP.m; path = BraintreeCore/BTHTTP.m; sourceTree = "<group>"; };
+		2915393B76D49B154BF19434C2F8361B /* Braintree-UIKit-Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Braintree-UIKit-Localization.bundle"; path = "BraintreeDropIn-Braintree-UIKit-Localization.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291AEDE64C7A45383EF97B14345EC6F6 /* BTLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTLogger.m; path = BraintreeCore/BTLogger.m; sourceTree = "<group>"; };
+		2E97B230D305C0FCACE025B4CAB3DDCB /* BTUIKLargeVisaVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeVisaVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVisaVectorArtView.m"; sourceTree = "<group>"; };
+		2EF8CCE685DC5BCF3B69B5D78F03D6F8 /* BraintreeDropIn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BraintreeDropIn-dummy.m"; sourceTree = "<group>"; };
+		2F8C19478E5D7F2C6163E890CA812F3B /* BTUIKAmExVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKAmExVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKAmExVectorArtView.m"; sourceTree = "<group>"; };
+		30112AAF0F8DF212745B90D368C4B466 /* BTUIKAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKAppearance.m; path = BraintreeUIKit/Helpers/BTUIKAppearance.m; sourceTree = "<group>"; };
+		3016AFCFDFF21B29080A28E0159E9BD9 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = BraintreeUIKit/Localization/da.lproj; sourceTree = "<group>"; };
+		307431D1C87CAB07ACFC72AB85FF349A /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = BraintreeUIKit/Localization/tr.lproj; sourceTree = "<group>"; };
+		316AE8D1F6B21CDD4A18F8816444C970 /* BTUIKLargePayPalMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargePayPalMonogramCardView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargePayPalMonogramCardView.h"; sourceTree = "<group>"; };
+		3261811695EADA354E576BF955914BB1 /* BTURLUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTURLUtils.m; path = BraintreeCore/BTURLUtils.m; sourceTree = "<group>"; };
+		3353C41E64C7BAFF27030283BB406181 /* BTUIKCardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKCardVectorArtView.h"; sourceTree = "<group>"; };
+		356122D192EFE0640A1A4D6881875DA0 /* BTAnalyticsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAnalyticsService.h; path = BraintreeCore/BTAnalyticsService.h; sourceTree = "<group>"; };
+		358AB6AE3D5CF60483B239B78C5A83AA /* BTCard_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCard_Internal.h; path = BraintreeCard/BTCard_Internal.h; sourceTree = "<group>"; };
+		360B45C26C180BB32AEDF0C2C3D0EF78 /* BTUIKDinersClubVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKDinersClubVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKDinersClubVectorArtView.h"; sourceTree = "<group>"; };
+		375E17CFF1D686ACF4EE60BFE30CE293 /* BTErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTErrors.h; path = BraintreeCore/Public/BTErrors.h; sourceTree = "<group>"; };
+		3886FEBA1515F16EB026C14B95DF6221 /* BTUIKCardListLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardListLabel.m; path = BraintreeUIKit/Components/BTUIKCardListLabel.m; sourceTree = "<group>"; };
+		39489CF321F68D789A7ADEEF6EE2CD79 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = BraintreeUIKit/Localization/ar.lproj; sourceTree = "<group>"; };
+		3A19DC05F318A00ADA707048B9713F6A /* BTUIKLocalizedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLocalizedString.h; path = BraintreeUIKit/Public/BTUIKLocalizedString.h; sourceTree = "<group>"; };
+		3AF17F97598A7AF030754EC46E321F7F /* BTUIKLargePayPalMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargePayPalMonogramCardView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargePayPalMonogramCardView.m"; sourceTree = "<group>"; };
+		3C405B7F518BCDC230BA195F48FEF5D0 /* BTConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTConfiguration.m; path = BraintreeCore/BTConfiguration.m; sourceTree = "<group>"; };
+		3C48700D314D0C2FF41CEF3B43205391 /* BTTokenizationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTTokenizationService.h; path = BraintreeCore/Public/BTTokenizationService.h; sourceTree = "<group>"; };
+		3D3C2761FFB563F3F08D9BD7D513F0B9 /* BTUIKCardType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardType.m; path = BraintreeUIKit/Models/BTUIKCardType.m; sourceTree = "<group>"; };
+		3ED3E977E761AB526F48BB86F530D1F2 /* BTUIKMobileNumberFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKMobileNumberFormField.m; path = BraintreeUIKit/Components/BTUIKMobileNumberFormField.m; sourceTree = "<group>"; };
+		3F0D84CE22AF8F75BD86737859DFCB88 /* BTEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTEnums.h; path = BraintreeCore/Public/BTEnums.h; sourceTree = "<group>"; };
+		3F2844481553ACB690CB82338110BF0D /* BTUIKExpiryInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKExpiryInputView.m; path = BraintreeUIKit/Components/BTUIKExpiryInputView.m; sourceTree = "<group>"; };
+		423349BE2ECF0109933942FD1B1B4DA0 /* BTDropInOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInOverrides.h; path = BraintreeDropIn/BTDropInOverrides.h; sourceTree = "<group>"; };
+		429F9056A8BA1E7E24C4F6AC8F35D0B6 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = BraintreeUIKit/Localization/sv.lproj; sourceTree = "<group>"; };
+		4316D73688BE507A885A7676D8C7A4DC /* BTDropInUIUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInUIUtilities.h; path = BraintreeDropIn/BTDropInUIUtilities.h; sourceTree = "<group>"; };
+		441F536A8D6A614650487FF9675870A8 /* BTURLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTURLUtils.h; path = BraintreeCore/BTURLUtils.h; sourceTree = "<group>"; };
+		461BB76847DBBA6FAEFBA2DE640C1E19 /* BTCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCard.h; path = BraintreeCard/Public/BTCard.h; sourceTree = "<group>"; };
+		469B331E089432A8B07748E5E103D9D4 /* BTAPIClient_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAPIClient_Internal.h; path = BraintreeCore/BTAPIClient_Internal.h; sourceTree = "<group>"; };
+		4797290A4145F2C698144CE4864B0469 /* BTUIKCardType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardType.h; path = BraintreeUIKit/Public/BTUIKCardType.h; sourceTree = "<group>"; };
+		47C1017396A08F782110B4F423525B6B /* BTUIKMasterCardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKMasterCardVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKMasterCardVectorArtView.h"; sourceTree = "<group>"; };
+		48C57BBD6D5DA2C69D832BB899F287A6 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = BraintreeUIKit/Localization/id.lproj; sourceTree = "<group>"; };
+		48E9652809C0230ED935AAA894378B3A /* BTDropInBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInBaseViewController.m; path = BraintreeDropIn/BTDropInBaseViewController.m; sourceTree = "<group>"; };
+		491EFBE140885BD732BD17593B604140 /* BTUIKLargeJCBVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeJCBVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeJCBVectorArtView.h"; sourceTree = "<group>"; };
+		4924F900452A94C0FA624DA4653EB42C /* BTPaymentMethodNonce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentMethodNonce.h; path = BraintreeCore/Public/BTPaymentMethodNonce.h; sourceTree = "<group>"; };
+		4A5AF2E4C1E7019FAE614D5A26A6BA16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AA004378187EC9BCBFDD57BDDDC3664 /* BTUIKMaestroVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKMaestroVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKMaestroVectorArtView.m"; sourceTree = "<group>"; };
+		4AFBC86B5ED955F1C40844BE02709DBA /* BTCardClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardClient.m; path = BraintreeCard/BTCardClient.m; sourceTree = "<group>"; };
+		4CA029F0E86D211A403325F9AF8D5ACB /* BTAppSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAppSwitch.h; path = BraintreeCore/Public/BTAppSwitch.h; sourceTree = "<group>"; };
+		4CD6DC2C57D79B8E4230B93101445714 /* BTUIKLargeMaestroVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeMaestroVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeMaestroVectorArtView.m"; sourceTree = "<group>"; };
+		4D4E0877F77A2C15D4D55B974F9C79C9 /* BTUIKExpiryFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKExpiryFormField.h; path = BraintreeUIKit/Public/BTUIKExpiryFormField.h; sourceTree = "<group>"; };
+		53835D95AC318BC572BD202F66F390F3 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = BraintreeUIKit/Localization/nb.lproj; sourceTree = "<group>"; };
+		53BAB99385F5CDE361A599DBB0F761E0 /* BraintreeDropIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraintreeDropIn.h; path = BraintreeDropIn/Public/BraintreeDropIn.h; sourceTree = "<group>"; };
+		56140151532155646DD045CBEDF945CE /* BTBinData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTBinData.m; path = BraintreeCore/BTBinData.m; sourceTree = "<group>"; };
+		56403F00DA8D11FCF3C0427DC224659B /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = BraintreeUIKit/Localization/nl.lproj; sourceTree = "<group>"; };
+		57A10978FCE891B76585A568A70B58AD /* BTUIKCVVBackVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCVVBackVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKCVVBackVectorArtView.h"; sourceTree = "<group>"; };
+		58DDE1D4DE94B9E85CCA0E34425ED13B /* BTPostalAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPostalAddress.m; path = BraintreeCore/BTPostalAddress.m; sourceTree = "<group>"; };
+		59F16CF91150AFD78A592CF6E8711DF4 /* BraintreeDropIn-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraintreeDropIn-umbrella.h"; sourceTree = "<group>"; };
+		5AC3C3CB51030EC27CBE7F2B9AD70D5C /* BTUIKPaymentOptionCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPaymentOptionCardView.h; path = BraintreeUIKit/Public/BTUIKPaymentOptionCardView.h; sourceTree = "<group>"; };
+		5CC8A2ABA5CA8ADD352F709FE76454D1 /* BTUIKVisaVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVisaVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKVisaVectorArtView.h"; sourceTree = "<group>"; };
+		5D00B8DAD2C8DAEA033FBE80DF06F634 /* BTUIKUnionPayVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKUnionPayVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKUnionPayVectorArtView.h"; sourceTree = "<group>"; };
+		5DC1DBCD2788C806A46CD2534D2268C2 /* Braintree-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Braintree-dummy.m"; sourceTree = "<group>"; };
+		5E9EBBB7FFFF14A83E94FED4D9FDFA00 /* BTUIKExpiryInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKExpiryInputView.h; path = BraintreeUIKit/Public/BTUIKExpiryInputView.h; sourceTree = "<group>"; };
+		60262C4A6C16CC7F24EE7A6D4846953E /* BTDropInResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInResult.h; path = BraintreeDropIn/Public/BTDropInResult.h; sourceTree = "<group>"; };
+		609CD9A6DA703B8A4B0EA5547B320127 /* BTUIKApplePayMarkVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKApplePayMarkVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKApplePayMarkVectorArtView.h"; sourceTree = "<group>"; };
+		60FFA28BAAA9FE6988A1D00C4F70FDDB /* BTClientToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTClientToken.m; path = BraintreeCore/BTClientToken.m; sourceTree = "<group>"; };
+		61B5A253CB791F0396564A0980DE1087 /* BTLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTLogger.h; path = BraintreeCore/Public/BTLogger.h; sourceTree = "<group>"; };
+		61E216F0880CBCD7D5973B3F294EB9F1 /* BTCardNonce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardNonce.m; path = BraintreeCard/BTCardNonce.m; sourceTree = "<group>"; };
+		622A9BB5696EE37EB2C626286F8D4E82 /* BTUIKVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKVectorArtView.m"; sourceTree = "<group>"; };
+		628680122799507D8994ADDD65707EDF /* BTUIKLargeDinersClubVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeDinersClubVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeDinersClubVectorArtView.h"; sourceTree = "<group>"; };
+		6317331471B42ACE6F4A539966046577 /* BTUIKCardExpirationValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardExpirationValidator.m; path = BraintreeUIKit/Models/BTUIKCardExpirationValidator.m; sourceTree = "<group>"; };
+		660398B5A71D73D974480834712466CF /* BTCardFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardFormViewController.h; path = BraintreeDropIn/Public/BTCardFormViewController.h; sourceTree = "<group>"; };
+		6673EF157E00ED2C79FA0CE0B612F10A /* BTAPIPinnedCertificates.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAPIPinnedCertificates.m; path = BraintreeCore/BTAPIPinnedCertificates.m; sourceTree = "<group>"; };
+		66CD4E86CD0F67F0306E8FA5CA5DDA1C /* BTUIKCardExpirationValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardExpirationValidator.h; path = BraintreeUIKit/Public/BTUIKCardExpirationValidator.h; sourceTree = "<group>"; };
+		684D9E05B8A0454A47271E3DA6402DD4 /* BTUIKLargeMasterCardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeMasterCardVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeMasterCardVectorArtView.h"; sourceTree = "<group>"; };
+		69E1617F6526E045030378A6AFE73B45 /* BTUIKLargeUnionPayVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeUnionPayVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeUnionPayVectorArtView.h"; sourceTree = "<group>"; };
+		6A1499B23FC174EA688C677AD903737E /* BTUIKMobileNumberFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKMobileNumberFormField.h; path = BraintreeUIKit/Public/BTUIKMobileNumberFormField.h; sourceTree = "<group>"; };
+		6A3343C16CD4D80CF66BA36BA55242BF /* BTUIKLargeVisaVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeVisaVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVisaVectorArtView.h"; sourceTree = "<group>"; };
+		6AA17AB3DB1194557C808C238C9BA14B /* BTAnalyticsMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAnalyticsMetadata.m; path = BraintreeCore/BTAnalyticsMetadata.m; sourceTree = "<group>"; };
+		6ADBED85A9E766D8B9383365D225C41B /* BTCardNonce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardNonce.h; path = BraintreeCard/Public/BTCardNonce.h; sourceTree = "<group>"; };
+		6E2DD5F57503CAAF0C0CD62FFBF5C704 /* BTDropInResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInResult.m; path = BraintreeDropIn/Models/BTDropInResult.m; sourceTree = "<group>"; };
+		6E4C14BDADBC046F5C96708D5FDED3AD /* ResourceBundle-Braintree-UIKit-Localization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Braintree-UIKit-Localization-Info.plist"; sourceTree = "<group>"; };
+		700A44B5BC52512674DA20B4D131B5CD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		70F7E6DCA9C60ECA2AAE23DC971D3662 /* BTUIKLargeAmExVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeAmExVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeAmExVectorArtView.m"; sourceTree = "<group>"; };
+		71D9E1AB3E6E7A5FD8787D9D504A8071 /* Pods-Braintree Tutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Braintree Tutorial.release.xcconfig"; sourceTree = "<group>"; };
+		71FD981AD43BBE2F533E36ED3E50946A /* BTUIKFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKFormField.h; path = BraintreeUIKit/Public/BTUIKFormField.h; sourceTree = "<group>"; };
+		7250E41834F6E40A945681A8FC87E430 /* BTAPIClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAPIClient.m; path = BraintreeCore/BTAPIClient.m; sourceTree = "<group>"; };
+		73C9CA7DA1B1F63CA3398D9B365B1F40 /* BTCardFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardFormViewController.m; path = BraintreeDropIn/BTCardFormViewController.m; sourceTree = "<group>"; };
+		74E5ADDE5B848D3575475C044DEAAC8C /* BTUIKLargeUnknownCardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeUnknownCardVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeUnknownCardVectorArtView.m"; sourceTree = "<group>"; };
+		778667FF4A9256F16B357EA089567215 /* BTUIKUnknownCardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKUnknownCardVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKUnknownCardVectorArtView.h"; sourceTree = "<group>"; };
+		7794E5ED1E57EC4303FCCEB2D85B61A9 /* BTUIKLargeApplePayMarkVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeApplePayMarkVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeApplePayMarkVectorArtView.h"; sourceTree = "<group>"; };
+		77C3965436CC2686C91C2FADDBDC0D27 /* BTUIKLargeDiscoverVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeDiscoverVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeDiscoverVectorArtView.m"; sourceTree = "<group>"; };
+		797F00F0574667510D759B1FB156B6C9 /* Pods-Braintree Tutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Braintree Tutorial.modulemap"; sourceTree = "<group>"; };
+		7A0FF0832EBDD75FB61BA63F153F1707 /* BTUIKJCBVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKJCBVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKJCBVectorArtView.h"; sourceTree = "<group>"; };
+		7A9F5444DD43263AB8F8548ADF111A09 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = BraintreeUIKit/Localization/th.lproj; sourceTree = "<group>"; };
+		7B1B8243E609044FC96C269DCBF25706 /* BTUIKVenmoWordmarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKVenmoWordmarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKVenmoWordmarkVectorArtView.m"; sourceTree = "<group>"; };
+		7E0456D991742F8957836049493516B2 /* BTPaymentMethodNonce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentMethodNonce.m; path = BraintreeCore/BTPaymentMethodNonce.m; sourceTree = "<group>"; };
+		7F31CFC9C97FABAE318AC39D6D61E4F3 /* BTCardClient+UnionPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BTCardClient+UnionPay.m"; path = "BraintreeUnionPay/BTCardClient+UnionPay.m"; sourceTree = "<group>"; };
+		807DA6A180225CD7641E0A8490A23826 /* Braintree.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Braintree.modulemap; sourceTree = "<group>"; };
+		808B6856ED5989755530EFD853934996 /* BTPaymentMethodNonceParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentMethodNonceParser.m; path = BraintreeCore/BTPaymentMethodNonceParser.m; sourceTree = "<group>"; };
+		810859BE8E15D0826F928B22E275CC2C /* BTUIKUnionPayVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKUnionPayVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKUnionPayVectorArtView.m"; sourceTree = "<group>"; };
+		8357CE30DB4B70794CB7C30532F5B624 /* BTUIKCoinbaseWordmarkVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCoinbaseWordmarkVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKCoinbaseWordmarkVectorArtView.h"; sourceTree = "<group>"; };
+		89136160D03EC05185966D9F54C3C848 /* BTUIKPayPalWordmarkCompactVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPayPalWordmarkCompactVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKPayPalWordmarkCompactVectorArtView.h"; sourceTree = "<group>"; };
+		89B84E6302B580B4B3125988D19013E3 /* BTJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTJSON.h; path = BraintreeCore/Public/BTJSON.h; sourceTree = "<group>"; };
+		8A6D476785702C2E3DF4A623267BAED4 /* BraintreeUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraintreeUIKit.h; path = BraintreeUIKit/Public/BraintreeUIKit.h; sourceTree = "<group>"; };
+		8B84A8983CD2F78B3AE5E9E56725415C /* BTTokenizationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTTokenizationService.m; path = BraintreeCore/BTTokenizationService.m; sourceTree = "<group>"; };
+		8BC1684CCE6321CFCD0B52BD53D238A6 /* BTDropInOverrides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInOverrides.m; path = BraintreeDropIn/BTDropInOverrides.m; sourceTree = "<group>"; };
+		8CA023246CFF2299AF7658AF991829ED /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = BraintreeUIKit/Localization/ko.lproj; sourceTree = "<group>"; };
+		8CA388784EAC934B5380D96E7094DC17 /* Braintree-Version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Braintree-Version.h"; path = "BraintreeCore/Braintree-Version.h"; sourceTree = "<group>"; };
+		8CC02D25BEAAB04FF554A574E5A3A401 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAEB3C13A33EFAAD20B61D0728EDFD3 /* BTAPIClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAPIClient.h; path = BraintreeCore/Public/BTAPIClient.h; sourceTree = "<group>"; };
+		8FA9E28C3DB3E31D1949547C7EE1DABD /* BTDropInRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInRequest.m; path = BraintreeDropIn/Models/BTDropInRequest.m; sourceTree = "<group>"; };
+		91934FE08A70535AAA94344B28C8FF74 /* fr-CA.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "fr-CA.lproj"; path = "BraintreeUIKit/Localization/fr-CA.lproj"; sourceTree = "<group>"; };
+		92AFD526532E933EB8545B50F8168FD6 /* BTAnalyticsService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAnalyticsService.m; path = BraintreeCore/BTAnalyticsService.m; sourceTree = "<group>"; };
+		938F7D5B7D897CD539C233E26353EC2E /* BTConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTConfiguration.h; path = BraintreeCore/Public/BTConfiguration.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959A582C10D7A470575DD1963BF089A3 /* BTUIKPayPalWordmarkVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPayPalWordmarkVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKPayPalWordmarkVectorArtView.h"; sourceTree = "<group>"; };
+		969D60C3D99ACC567C169353FA1CB191 /* BTDropInController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInController.m; path = BraintreeDropIn/BTDropInController.m; sourceTree = "<group>"; };
+		9719D090B08582DA09A07CC2C9F69AAD /* BTConfiguration+UnionPay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "BTConfiguration+UnionPay.m"; path = "BraintreeUnionPay/BTConfiguration+UnionPay.m"; sourceTree = "<group>"; };
+		982A656EECCAD8085C8CFBBB9FA0DEE9 /* BTClientMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTClientMetadata.h; path = BraintreeCore/Public/BTClientMetadata.h; sourceTree = "<group>"; };
+		9AFEDDD3092FC4DE30F5A5D24C9FB822 /* BTUIKCardListLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardListLabel.h; path = BraintreeUIKit/Public/BTUIKCardListLabel.h; sourceTree = "<group>"; };
+		9C55DBD3E21F80CCA12DE5F22D3BD980 /* BTEnrollmentVerificationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTEnrollmentVerificationViewController.h; path = "BraintreeDropIn/Custom Views/BTEnrollmentVerificationViewController.h"; sourceTree = "<group>"; };
+		9E91950D2664D29FDDF45D1CA195F64E /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = BraintreeUIKit/Localization/de.lproj; sourceTree = "<group>"; };
+		A0364682180FC28E2CDAAF86CD5F4B8F /* BTUIKCoinbaseWordmarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCoinbaseWordmarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKCoinbaseWordmarkVectorArtView.m"; sourceTree = "<group>"; };
+		A067BE3309626564E2E6D3F324E9DCAC /* BTAnalyticsMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAnalyticsMetadata.h; path = BraintreeCore/BTAnalyticsMetadata.h; sourceTree = "<group>"; };
+		A1271FC3F44279A8F86176F88DBB0938 /* BTUIKInputAccessoryToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKInputAccessoryToolbar.m; path = BraintreeUIKit/Components/BTUIKInputAccessoryToolbar.m; sourceTree = "<group>"; };
+		A1BED7ED20325BEA5E875848E14CA168 /* BraintreeDropIn.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BraintreeDropIn.xcconfig; sourceTree = "<group>"; };
+		A2C955E23AE5124DF518EB4A2797676F /* BTJSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTJSON.m; path = BraintreeCore/BTJSON.m; sourceTree = "<group>"; };
+		A369887E341322706C15015E1D6A61BF /* BTUIKCVVFrontVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCVVFrontVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKCVVFrontVectorArtView.h"; sourceTree = "<group>"; };
+		A39A1D1317B10EFB10B8D542CED98220 /* BTUIKMobileCountryCodeFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKMobileCountryCodeFormField.h; path = BraintreeUIKit/Public/BTUIKMobileCountryCodeFormField.h; sourceTree = "<group>"; };
+		A39C8D9112747F417EE4FF4821F66139 /* BTPaymentSelectionViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTPaymentSelectionViewController.m; path = BraintreeDropIn/BTPaymentSelectionViewController.m; sourceTree = "<group>"; };
+		A47A8E8DD05A411D92E26E37D4287791 /* BTCardRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardRequest.h; path = BraintreeCard/Public/BTCardRequest.h; sourceTree = "<group>"; };
+		A4C356B1C86DF60604CCDC12D5C8F305 /* BTUIKTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKTextField.h; path = BraintreeUIKit/Public/BTUIKTextField.h; sourceTree = "<group>"; };
+		A53C0FEFA7BF375A9265C2B4E2FA0367 /* BraintreeUnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraintreeUnionPay.h; path = BraintreeUnionPay/Public/BraintreeUnionPay.h; sourceTree = "<group>"; };
+		A568C7A4D70625F83CB7023841BB18CA /* BTAPIClient_Internal_Category.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAPIClient_Internal_Category.h; path = BraintreeDropIn/BTAPIClient_Internal_Category.h; sourceTree = "<group>"; };
+		A63B676F4B2202A8ED34FFBF64B62D43 /* BTUIKAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKAppearance.h; path = BraintreeUIKit/Public/BTUIKAppearance.h; sourceTree = "<group>"; };
+		A65E66EF57E92D28995D1094B1BEFEEB /* BTHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTHTTP.h; path = BraintreeCore/BTHTTP.h; sourceTree = "<group>"; };
+		A6FD620F63B38A6FA8E50EC4603453A4 /* he.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = he.lproj; path = BraintreeUIKit/Localization/he.lproj; sourceTree = "<group>"; };
+		A8DA55B47986D658C77135C3012FC59C /* BTUIKDinersClubVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKDinersClubVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKDinersClubVectorArtView.m"; sourceTree = "<group>"; };
+		A933B48F4DC4FB58FA1A2AA364240515 /* BTAPIHTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTAPIHTTP.m; path = BraintreeCore/BTAPIHTTP.m; sourceTree = "<group>"; };
+		AA0134B3968BB299745DE91C84C4FECB /* BTUIKLargeUnionPayVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeUnionPayVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeUnionPayVectorArtView.m"; sourceTree = "<group>"; };
+		AA21761AE40B8AE6F1E107115A65CCC2 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "BraintreeUIKit/Localization/zh-Hant.lproj"; sourceTree = "<group>"; };
+		AA4BC5AC0358CB2EC360ED4D94B4791C /* BTUIKSecurityCodeFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKSecurityCodeFormField.m; path = BraintreeUIKit/Components/BTUIKSecurityCodeFormField.m; sourceTree = "<group>"; };
+		ABF40E05ECD63A7D7C100FBCDBCCC7A9 /* Pods-Braintree Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Braintree Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		AD07C9FA8426C77DB78930CD9DD5B081 /* BTUIKCoinbaseMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCoinbaseMonogramCardView.h; path = "BraintreeUIKit/Vector Art/BTUIKCoinbaseMonogramCardView.h"; sourceTree = "<group>"; };
+		AD8668016D3C607A3AF9D0398BABBCC4 /* Pods-Braintree Tutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Braintree Tutorial-dummy.m"; sourceTree = "<group>"; };
+		AEC0B2952BD6325384383A192B70F8EA /* Braintree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Braintree.framework; path = Braintree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEDA820353FF3973239F16E2F5854CBD /* BTEnrollmentVerificationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTEnrollmentVerificationViewController.m; path = "BraintreeDropIn/Custom Views/BTEnrollmentVerificationViewController.m"; sourceTree = "<group>"; };
+		B0649355C6F2159A95F88A1A150D0961 /* BTUIKVisualAssetType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVisualAssetType.h; path = BraintreeUIKit/Public/BTUIKVisualAssetType.h; sourceTree = "<group>"; };
+		B11D7FEC7353C127C7899EEBCC208BB0 /* BTUIKCardNumberFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardNumberFormField.m; path = BraintreeUIKit/Components/BTUIKCardNumberFormField.m; sourceTree = "<group>"; };
+		B29D1839DA4A6B0854FB15E7499A810A /* BTUIKLargeMasterCardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeMasterCardVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeMasterCardVectorArtView.m"; sourceTree = "<group>"; };
+		B2A37B2A1D0B6FE89ED840F265C9D300 /* BTCardNonce_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardNonce_Internal.h; path = BraintreeCard/BTCardNonce_Internal.h; sourceTree = "<group>"; };
+		B3033F790DA12C47F60AE55A2DB31F42 /* BTUIKExpiryInputCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKExpiryInputCollectionViewCell.h; path = BraintreeUIKit/Components/BTUIKExpiryInputCollectionViewCell.h; sourceTree = "<group>"; };
+		B37238998A0C24A2DE6255065108A664 /* BTDropInController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInController.h; path = BraintreeDropIn/Public/BTDropInController.h; sourceTree = "<group>"; };
+		B3BF14CD22414355A902F479AB859E3B /* BTUIKPayPalWordmarkCompactVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPayPalWordmarkCompactVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKPayPalWordmarkCompactVectorArtView.m"; sourceTree = "<group>"; };
+		B76F3D26169F6FC15C4AC45959E1A255 /* BTDropInPaymentSeletionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInPaymentSeletionCell.m; path = "BraintreeDropIn/Custom Views/BTDropInPaymentSeletionCell.m"; sourceTree = "<group>"; };
+		B83F92CD7C39EC7D9B8E847BAD3E0CEF /* BTUIKVenmoMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKVenmoMonogramCardView.m; path = "BraintreeUIKit/Vector Art/BTUIKVenmoMonogramCardView.m"; sourceTree = "<group>"; };
+		B8CC7C229687ED9A532E74B24A118EC8 /* BTUIKLargeApplePayMarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeApplePayMarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeApplePayMarkVectorArtView.m"; sourceTree = "<group>"; };
+		B964A70402CAF8D68890DD0CE615819F /* BTUIKMaestroVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKMaestroVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKMaestroVectorArtView.h"; sourceTree = "<group>"; };
+		B9BE189CF717ACC1753B7DC9E7C2E098 /* BTCardClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCardClient.h; path = BraintreeCard/Public/BTCardClient.h; sourceTree = "<group>"; };
+		BB1EC8FF89B5A7D9BE6BA672FD1D288F /* BTHTTPErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTHTTPErrors.m; path = BraintreeCore/BTHTTPErrors.m; sourceTree = "<group>"; };
+		BD770AFF3794C86AE6B76A3533C1E4C1 /* BTUIKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKUtil.m; path = BraintreeUIKit/Models/BTUIKUtil.m; sourceTree = "<group>"; };
+		BDC6656B6FC05B2F9A568347C9662F88 /* BTUIKLocalizedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLocalizedString.m; path = BraintreeUIKit/Localization/BTUIKLocalizedString.m; sourceTree = "<group>"; };
+		BDE1D38B0AEEBBF02D0575C0845193E5 /* BTUIKLargeJCBVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeJCBVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeJCBVectorArtView.m"; sourceTree = "<group>"; };
+		BE0B463D84EA81C97208BCC8E189D0DD /* BTAPIPinnedCertificates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAPIPinnedCertificates.h; path = BraintreeCore/BTAPIPinnedCertificates.h; sourceTree = "<group>"; };
+		BF1938CDFF43447D95F0CED8D1753C78 /* BTUIKBarButtonItem_Internal_Declaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKBarButtonItem_Internal_Declaration.h; path = BraintreeDropIn/BTUIKBarButtonItem_Internal_Declaration.h; sourceTree = "<group>"; };
+		C168BEC8C42E2393825733D0C57C3E7D /* BTUIKDiscoverVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKDiscoverVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKDiscoverVectorArtView.m"; sourceTree = "<group>"; };
+		C1F9B3AA05B63BD1F6E1FE0B387E1D97 /* Braintree.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Braintree.xcconfig; sourceTree = "<group>"; };
+		C433B98E78E028F12F20342A39C8BE47 /* BraintreeCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraintreeCore.h; path = BraintreeCore/Public/BraintreeCore.h; sourceTree = "<group>"; };
+		C6150A027752F15CD6C92D78C7466CA7 /* BTUIKTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKTextField.m; path = BraintreeUIKit/Components/BTUIKTextField.m; sourceTree = "<group>"; };
+		C720174E3156DE4ADF0E5B186C6283A4 /* BTUIKExpiryFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKExpiryFormField.m; path = BraintreeUIKit/Components/BTUIKExpiryFormField.m; sourceTree = "<group>"; };
+		C73342AA063852FD7C0A0ADF5F3119AD /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = BraintreeUIKit/Localization/es.lproj; sourceTree = "<group>"; };
+		C853FA6F6A494863EF053B9E7E681F86 /* BTUIKPayPalWordmarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPayPalWordmarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKPayPalWordmarkVectorArtView.m"; sourceTree = "<group>"; };
+		C85552BD9122756EF1256EFC236FD511 /* BTPaymentMethodNonceParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPaymentMethodNonceParser.h; path = BraintreeCore/Public/BTPaymentMethodNonceParser.h; sourceTree = "<group>"; };
+		C876888A4B9C5F1A396F0D7F776CC6CA /* BraintreeDropIn-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraintreeDropIn-prefix.pch"; sourceTree = "<group>"; };
+		C97405D4BC1A9957544A4B8DDE96AB91 /* BTViewControllerPresentingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTViewControllerPresentingDelegate.h; path = BraintreeCore/Public/BTViewControllerPresentingDelegate.h; sourceTree = "<group>"; };
+		CB0A1DAE2BCEA5EFD7A29A398B87A5D2 /* BTUIKLargeAmExVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeAmExVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeAmExVectorArtView.h"; sourceTree = "<group>"; };
+		CBD7CF221C308DF01ECC274F3D0F3DC9 /* BTUIKUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKUtil.h; path = BraintreeUIKit/Public/BTUIKUtil.h; sourceTree = "<group>"; };
+		CBEC337AE7C9BC7449D9B023A194D27A /* BTCardRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCardRequest.m; path = BraintreeCard/BTCardRequest.m; sourceTree = "<group>"; };
+		CDD13AC22C1E213ED2267518111C1361 /* UIColor+BTUIK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BTUIK.h"; path = "BraintreeUIKit/Public/UIColor+BTUIK.h"; sourceTree = "<group>"; };
+		CFF94B0737FF6032F45255A351932041 /* BTUIKPayPalMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPayPalMonogramCardView.m; path = "BraintreeUIKit/Vector Art/BTUIKPayPalMonogramCardView.m"; sourceTree = "<group>"; };
+		D16EB076D3458827FFFB7B47E37650EC /* BTUIKApplePayMarkVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKApplePayMarkVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKApplePayMarkVectorArtView.m"; sourceTree = "<group>"; };
+		D18DDD19DC21D8A5AD3B774C64F014CF /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = BraintreeUIKit/Localization/en.lproj; sourceTree = "<group>"; };
+		D1B696C21CC552F46A8643045859D0AA /* BTUIKCardExpiryFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardExpiryFormat.h; path = BraintreeUIKit/Public/BTUIKCardExpiryFormat.h; sourceTree = "<group>"; };
+		D1C8518701A3AF1A06D5BA6433FF591A /* BTUIKCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCollectionReusableView.h; path = BraintreeUIKit/Components/BTUIKCollectionReusableView.h; sourceTree = "<group>"; };
+		D4DF83FF6B0977D850FA482DEA28C94F /* BTUIKLargeVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVectorArtView.h"; sourceTree = "<group>"; };
+		D58C7DBACDB76F3DE8DF8B8B8FEE18B7 /* BTUIKLargeUnknownCardVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeUnknownCardVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeUnknownCardVectorArtView.h"; sourceTree = "<group>"; };
+		D598E1900351791E15FA4CC0A3477117 /* BTAPIHTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTAPIHTTP.h; path = BraintreeCore/BTAPIHTTP.h; sourceTree = "<group>"; };
+		D66A5ECBD2D537A03A045EB5424A82A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73FA307C6426BB8036ACEEDA5EFEA77 /* BTUIKLargeVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVectorArtView.m"; sourceTree = "<group>"; };
+		D775357EEA090322D15C20ECB5740DF3 /* BTUIKLargeMaestroVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeMaestroVectorArtView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeMaestroVectorArtView.h"; sourceTree = "<group>"; };
+		D7C993A2C2DE3CE2C6609AFAC8C143A7 /* BTClientToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTClientToken.h; path = BraintreeCore/Public/BTClientToken.h; sourceTree = "<group>"; };
+		D8C225601067A8AEC6B7591AB40BCE5E /* BTUIKPostalCodeFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKPostalCodeFormField.h; path = BraintreeUIKit/Public/BTUIKPostalCodeFormField.h; sourceTree = "<group>"; };
+		DB697E936514B7F2D7E48F5E634C8381 /* BTDropInBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTDropInBaseViewController.h; path = BraintreeDropIn/Public/BTDropInBaseViewController.h; sourceTree = "<group>"; };
+		DB6C7E529814CAE869D699E83166FA91 /* BTUIKAmExVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKAmExVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKAmExVectorArtView.h"; sourceTree = "<group>"; };
+		DB9ED169461ECC3390876583DF92C91B /* BTUIKCardNumberFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKCardNumberFormField.h; path = BraintreeUIKit/Public/BTUIKCardNumberFormField.h; sourceTree = "<group>"; };
+		DBA9FA21F25125AD018D144B2358D68B /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = BraintreeUIKit/Localization/fr.lproj; sourceTree = "<group>"; };
+		DBF27787C0B685418564B396D74FBCE6 /* BTUIPaymentMethodCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIPaymentMethodCollectionViewCell.m; path = "BraintreeDropIn/Custom Views/BTUIPaymentMethodCollectionViewCell.m"; sourceTree = "<group>"; };
+		DE87109CB50DC6EC1DCA601F140AC978 /* BTUIKLargeDinersClubVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeDinersClubVectorArtView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeDinersClubVectorArtView.m"; sourceTree = "<group>"; };
+		DE9A89B8C7E684E47CE5A2736477021E /* BTCardClient+UnionPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BTCardClient+UnionPay.h"; path = "BraintreeUnionPay/Public/BTCardClient+UnionPay.h"; sourceTree = "<group>"; };
+		DEFDD41F57D610C50400C5C9AC6363BB /* BTCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCard.m; path = BraintreeCard/BTCard.m; sourceTree = "<group>"; };
+		DF042C2A1D765E6B7DF249F46517E8E1 /* UIColor+BTUIK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BTUIK.m"; path = "BraintreeUIKit/Helpers/UIColor+BTUIK.m"; sourceTree = "<group>"; };
+		DF50A6616A3740C29F0EE5545656AD12 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = BraintreeUIKit/Localization/pl.lproj; sourceTree = "<group>"; };
+		DF8BB3A91340172E7C5AABD07528F1EB /* BTUIKCVVFrontVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCVVFrontVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKCVVFrontVectorArtView.m"; sourceTree = "<group>"; };
+		E054E2100572DC462160C31E53A20674 /* BTUIPaymentMethodCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIPaymentMethodCollectionViewCell.h; path = "BraintreeDropIn/Custom Views/BTUIPaymentMethodCollectionViewCell.h"; sourceTree = "<group>"; };
+		E0AB1AD07C91F648891E1A248052DAF5 /* BTHTTPErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTHTTPErrors.h; path = BraintreeCore/Public/BTHTTPErrors.h; sourceTree = "<group>"; };
+		E1342E41478BE7C4ED19F81FC2A13A91 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = BraintreeUIKit/Localization/pt.lproj; sourceTree = "<group>"; };
+		E188126D71C68EA2545E6291387F892B /* BTUIKVenmoMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVenmoMonogramCardView.h; path = "BraintreeUIKit/Vector Art/BTUIKVenmoMonogramCardView.h"; sourceTree = "<group>"; };
+		E1E02031CB1F9A598E8FF8E45AD5D142 /* BTKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTKeychain.h; path = BraintreeCore/BTKeychain.h; sourceTree = "<group>"; };
+		E222F3A99E26A710E09F0C11C968209D /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = BraintreeUIKit/Localization/ru.lproj; sourceTree = "<group>"; };
+		E48B65C3812EFA8B31B903A8507634D6 /* BTUIKLargeCoinbaseMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeCoinbaseMonogramCardView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeCoinbaseMonogramCardView.h"; sourceTree = "<group>"; };
+		E7D341956098375E1C12AECEE1207C31 /* BTUIKViewUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKViewUtil.m; path = BraintreeUIKit/Helpers/BTUIKViewUtil.m; sourceTree = "<group>"; };
+		E888802D467E067FA6F843098DC45E93 /* BTUIKCardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKCardVectorArtView.m"; sourceTree = "<group>"; };
+		E9B70D4DB2E8E51602ED70DC6A4110D7 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = BraintreeUIKit/Localization/ja.lproj; sourceTree = "<group>"; };
+		E9D1B99217491066ED4624F99A0D4086 /* Braintree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Braintree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFC531E35634995915E891DF0652B17 /* BTDropInUIUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTDropInUIUtilities.m; path = BraintreeDropIn/BTDropInUIUtilities.m; sourceTree = "<group>"; };
+		EC572A2AA097DE414D2E314330DA3C48 /* BTUIKCoinbaseMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCoinbaseMonogramCardView.m; path = "BraintreeUIKit/Vector Art/BTUIKCoinbaseMonogramCardView.m"; sourceTree = "<group>"; };
+		F00145F56C882BEDB86EAF6F446276F5 /* BTLogger_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTLogger_Internal.h; path = BraintreeCore/BTLogger_Internal.h; sourceTree = "<group>"; };
+		F2B101E4A1140C890DA0F8E2D26AF768 /* BTUIKVenmoWordmarkVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVenmoWordmarkVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKVenmoWordmarkVectorArtView.h"; sourceTree = "<group>"; };
+		F2C414A07821A3A22261F2AA57552499 /* BTUIKMobileCountryCodeFormField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKMobileCountryCodeFormField.m; path = BraintreeUIKit/Components/BTUIKMobileCountryCodeFormField.m; sourceTree = "<group>"; };
+		F3225AD21092C75EA1A32F92C712F743 /* BTUIKPaymentOptionCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKPaymentOptionCardView.m; path = BraintreeUIKit/Components/BTUIKPaymentOptionCardView.m; sourceTree = "<group>"; };
+		F33BFEEA7B46EA8A07AB80CBA5939FF5 /* Pods-Braintree Tutorial-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Braintree Tutorial-acknowledgements.plist"; sourceTree = "<group>"; };
+		F438ECE63ECCC16B4A6EB797E83DD9CE /* BTUIKCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCollectionReusableView.m; path = BraintreeUIKit/Components/BTUIKCollectionReusableView.m; sourceTree = "<group>"; };
+		F4A19DCE0A827FA779A60A6FB4A75F73 /* Pods_Braintree_Tutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Braintree_Tutorial.framework; path = "Pods-Braintree Tutorial.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F557F88ADC8855897F20AEC0D4BC6D85 /* BTUIKDiscoverVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKDiscoverVectorArtView.h; path = "BraintreeUIKit/Vector Art/BTUIKDiscoverVectorArtView.h"; sourceTree = "<group>"; };
+		F56AE987099AA9CE279A985C163129BC /* BTUIKMasterCardVectorArtView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKMasterCardVectorArtView.m; path = "BraintreeUIKit/Vector Art/BTUIKMasterCardVectorArtView.m"; sourceTree = "<group>"; };
+		F798D10FA876B489DC3BBB8C1FAC6F7C /* BTUIKVectorArtView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKVectorArtView.h; path = BraintreeUIKit/Public/BTUIKVectorArtView.h; sourceTree = "<group>"; };
+		F88811FE88CBC1C06017F9A71E7E8CD8 /* BTBinData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTBinData.h; path = BraintreeCore/Public/BTBinData.h; sourceTree = "<group>"; };
+		F97FC2A5452A99C4FD58AC23AED53B7C /* BTUIKExpiryInputCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKExpiryInputCollectionViewCell.m; path = BraintreeUIKit/Components/BTUIKExpiryInputCollectionViewCell.m; sourceTree = "<group>"; };
+		F9C92EDF68D4E71FC48C00618428F555 /* BTUIKLargeCoinbaseMonogramCardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKLargeCoinbaseMonogramCardView.m; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeCoinbaseMonogramCardView.m"; sourceTree = "<group>"; };
+		FA8247BA7CAD6AC080B220E0E07D03DA /* zh-Hant-HK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant-HK.lproj"; path = "BraintreeUIKit/Localization/zh-Hant-HK.lproj"; sourceTree = "<group>"; };
+		FAA63F3BC21E9F5A28F621527720272A /* BTUIKSecurityCodeFormField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKSecurityCodeFormField.h; path = BraintreeUIKit/Public/BTUIKSecurityCodeFormField.h; sourceTree = "<group>"; };
+		FAC61322B89076F41A7F0A396DCA1D43 /* BTVaultManagementViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTVaultManagementViewController.h; path = BraintreeDropIn/Public/BTVaultManagementViewController.h; sourceTree = "<group>"; };
+		FB9093D21748BD9112F99C4E098D35A2 /* BTUIKCardExpiryFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTUIKCardExpiryFormat.m; path = BraintreeUIKit/Models/BTUIKCardExpiryFormat.m; sourceTree = "<group>"; };
+		FC78D6388CA7202F402CD389345BA2F5 /* BTPostalAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTPostalAddress.h; path = BraintreeCore/Public/BTPostalAddress.h; sourceTree = "<group>"; };
+		FDB71301C1EC9EBB8B846DD960914586 /* BraintreeDropIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BraintreeDropIn.framework; path = BraintreeDropIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0DB8E95320FC52CFE5C58326FBD9E9 /* Pods-Braintree Tutorial-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Braintree Tutorial-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE9C70BF39DD6ADF347E9A02F231F638 /* BTUIKInputAccessoryToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKInputAccessoryToolbar.h; path = BraintreeUIKit/Public/BTUIKInputAccessoryToolbar.h; sourceTree = "<group>"; };
+		FED73F49F2BBE0A7503B035CAD5330A9 /* BTUIKLargeVenmoMonogramCardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTUIKLargeVenmoMonogramCardView.h; path = "BraintreeUIKit/Vector Art/Large/BTUIKLargeVenmoMonogramCardView.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C28D9C4DDC0D4228E02D3BAEAE2FA8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C667D6C4D80F4B6D24BF31CE0234437E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F84A003583B03FE026F79851234D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A156F7543BCE37BCADF0E38CE124A9C5 /* Braintree.framework in Frameworks */,
+				FB6BE3E2C797E485C4994EEB351662B9 /* Foundation.framework in Frameworks */,
+				158FAF8FDCA94149E141C10E9F15692B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B4B9767DA9FF16E7F02E061E4954C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCEE58EB685424FAE9F91E36F49BAFF /* AddressBook.framework in Frameworks */,
+				515C1015A4E0293DACE8805E9CD080DC /* Foundation.framework in Frameworks */,
+				ADFB8DFBD493B217E8F12E494D676143 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3624D69824AE3022C461DDC4B7AA13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4138F800E95AC65713D86A6A3F90FF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8CA388784EAC934B5380D96E7094DC17 /* Braintree-Version.h */,
+				C433B98E78E028F12F20342A39C8BE47 /* BraintreeCore.h */,
+				A067BE3309626564E2E6D3F324E9DCAC /* BTAnalyticsMetadata.h */,
+				6AA17AB3DB1194557C808C238C9BA14B /* BTAnalyticsMetadata.m */,
+				356122D192EFE0640A1A4D6881875DA0 /* BTAnalyticsService.h */,
+				92AFD526532E933EB8545B50F8168FD6 /* BTAnalyticsService.m */,
+				8EAEB3C13A33EFAAD20B61D0728EDFD3 /* BTAPIClient.h */,
+				7250E41834F6E40A945681A8FC87E430 /* BTAPIClient.m */,
+				469B331E089432A8B07748E5E103D9D4 /* BTAPIClient_Internal.h */,
+				D598E1900351791E15FA4CC0A3477117 /* BTAPIHTTP.h */,
+				A933B48F4DC4FB58FA1A2AA364240515 /* BTAPIHTTP.m */,
+				BE0B463D84EA81C97208BCC8E189D0DD /* BTAPIPinnedCertificates.h */,
+				6673EF157E00ED2C79FA0CE0B612F10A /* BTAPIPinnedCertificates.m */,
+				4CA029F0E86D211A403325F9AF8D5ACB /* BTAppSwitch.h */,
+				1838D740925391FBE63F7754395D01FA /* BTAppSwitch.m */,
+				F88811FE88CBC1C06017F9A71E7E8CD8 /* BTBinData.h */,
+				56140151532155646DD045CBEDF945CE /* BTBinData.m */,
+				982A656EECCAD8085C8CFBBB9FA0DEE9 /* BTClientMetadata.h */,
+				25B585B7D7212D171A3A53BDFC1FA465 /* BTClientMetadata.m */,
+				D7C993A2C2DE3CE2C6609AFAC8C143A7 /* BTClientToken.h */,
+				60FFA28BAAA9FE6988A1D00C4F70FDDB /* BTClientToken.m */,
+				938F7D5B7D897CD539C233E26353EC2E /* BTConfiguration.h */,
+				3C405B7F518BCDC230BA195F48FEF5D0 /* BTConfiguration.m */,
+				3F0D84CE22AF8F75BD86737859DFCB88 /* BTEnums.h */,
+				375E17CFF1D686ACF4EE60BFE30CE293 /* BTErrors.h */,
+				188195D7B4277C92444CF3FBD97D59BA /* BTErrors.m */,
+				A65E66EF57E92D28995D1094B1BEFEEB /* BTHTTP.h */,
+				285B3F7800D3DB7FF863C5B07D647C26 /* BTHTTP.m */,
+				E0AB1AD07C91F648891E1A248052DAF5 /* BTHTTPErrors.h */,
+				BB1EC8FF89B5A7D9BE6BA672FD1D288F /* BTHTTPErrors.m */,
+				89B84E6302B580B4B3125988D19013E3 /* BTJSON.h */,
+				A2C955E23AE5124DF518EB4A2797676F /* BTJSON.m */,
+				E1E02031CB1F9A598E8FF8E45AD5D142 /* BTKeychain.h */,
+				1435BE0DF9A09CC1C9F449011CC413A2 /* BTKeychain.m */,
+				61B5A253CB791F0396564A0980DE1087 /* BTLogger.h */,
+				291AEDE64C7A45383EF97B14345EC6F6 /* BTLogger.m */,
+				F00145F56C882BEDB86EAF6F446276F5 /* BTLogger_Internal.h */,
+				4924F900452A94C0FA624DA4653EB42C /* BTPaymentMethodNonce.h */,
+				7E0456D991742F8957836049493516B2 /* BTPaymentMethodNonce.m */,
+				C85552BD9122756EF1256EFC236FD511 /* BTPaymentMethodNonceParser.h */,
+				808B6856ED5989755530EFD853934996 /* BTPaymentMethodNonceParser.m */,
+				FC78D6388CA7202F402CD389345BA2F5 /* BTPostalAddress.h */,
+				58DDE1D4DE94B9E85CCA0E34425ED13B /* BTPostalAddress.m */,
+				3C48700D314D0C2FF41CEF3B43205391 /* BTTokenizationService.h */,
+				8B84A8983CD2F78B3AE5E9E56725415C /* BTTokenizationService.m */,
+				441F536A8D6A614650487FF9675870A8 /* BTURLUtils.h */,
+				3261811695EADA354E576BF955914BB1 /* BTURLUtils.m */,
+				C97405D4BC1A9957544A4B8DDE96AB91 /* BTViewControllerPresentingDelegate.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		101361A3C934B8C838AEB722AE6D4601 /* Braintree */ = {
+			isa = PBXGroup;
+			children = (
+				1287D6297D281A8ECB677DAB8CF8AA82 /* Card */,
+				0E4138F800E95AC65713D86A6A3F90FF /* Core */,
+				7B344740DD4116E9B2A7B934485AB3D2 /* Support Files */,
+				67154D123A9601E816114B3C3CDF048D /* UnionPay */,
+			);
+			name = Braintree;
+			path = Braintree;
+			sourceTree = "<group>";
+		};
+		1287D6297D281A8ECB677DAB8CF8AA82 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				244CBEA15FC6DFE2232B4BDD79926705 /* BraintreeCard.h */,
+				461BB76847DBBA6FAEFBA2DE640C1E19 /* BTCard.h */,
+				DEFDD41F57D610C50400C5C9AC6363BB /* BTCard.m */,
+				358AB6AE3D5CF60483B239B78C5A83AA /* BTCard_Internal.h */,
+				B9BE189CF717ACC1753B7DC9E7C2E098 /* BTCardClient.h */,
+				4AFBC86B5ED955F1C40844BE02709DBA /* BTCardClient.m */,
+				15F48CB5411450B4AB93FD6A13A68672 /* BTCardClient_Internal.h */,
+				6ADBED85A9E766D8B9383365D225C41B /* BTCardNonce.h */,
+				61E216F0880CBCD7D5973B3F294EB9F1 /* BTCardNonce.m */,
+				B2A37B2A1D0B6FE89ED840F265C9D300 /* BTCardNonce_Internal.h */,
+				A47A8E8DD05A411D92E26E37D4287791 /* BTCardRequest.h */,
+				CBEC337AE7C9BC7449D9B023A194D27A /* BTCardRequest.m */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		18D5BF141B24579F0AA05C8EA0A6BA4F /* DropIn */ = {
+			isa = PBXGroup;
+			children = (
+				53BAB99385F5CDE361A599DBB0F761E0 /* BraintreeDropIn.h */,
+				A568C7A4D70625F83CB7023841BB18CA /* BTAPIClient_Internal_Category.h */,
+				660398B5A71D73D974480834712466CF /* BTCardFormViewController.h */,
+				73C9CA7DA1B1F63CA3398D9B365B1F40 /* BTCardFormViewController.m */,
+				DB697E936514B7F2D7E48F5E634C8381 /* BTDropInBaseViewController.h */,
+				48E9652809C0230ED935AAA894378B3A /* BTDropInBaseViewController.m */,
+				B37238998A0C24A2DE6255065108A664 /* BTDropInController.h */,
+				969D60C3D99ACC567C169353FA1CB191 /* BTDropInController.m */,
+				423349BE2ECF0109933942FD1B1B4DA0 /* BTDropInOverrides.h */,
+				8BC1684CCE6321CFCD0B52BD53D238A6 /* BTDropInOverrides.m */,
+				05F8E94BC174102B10CDE96DD8DE8F8F /* BTDropInPaymentSeletionCell.h */,
+				B76F3D26169F6FC15C4AC45959E1A255 /* BTDropInPaymentSeletionCell.m */,
+				10B5C73A2B50D1AEC99B04AA56AAA6C4 /* BTDropInRequest.h */,
+				8FA9E28C3DB3E31D1949547C7EE1DABD /* BTDropInRequest.m */,
+				60262C4A6C16CC7F24EE7A6D4846953E /* BTDropInResult.h */,
+				6E2DD5F57503CAAF0C0CD62FFBF5C704 /* BTDropInResult.m */,
+				4316D73688BE507A885A7676D8C7A4DC /* BTDropInUIUtilities.h */,
+				EBFC531E35634995915E891DF0652B17 /* BTDropInUIUtilities.m */,
+				9C55DBD3E21F80CCA12DE5F22D3BD980 /* BTEnrollmentVerificationViewController.h */,
+				AEDA820353FF3973239F16E2F5854CBD /* BTEnrollmentVerificationViewController.m */,
+				0CD5BEF87C582069B822B9B0E8535ADF /* BTPaymentSelectionViewController.h */,
+				A39C8D9112747F417EE4FF4821F66139 /* BTPaymentSelectionViewController.m */,
+				BF1938CDFF43447D95F0CED8D1753C78 /* BTUIKBarButtonItem_Internal_Declaration.h */,
+				E054E2100572DC462160C31E53A20674 /* BTUIPaymentMethodCollectionViewCell.h */,
+				DBF27787C0B685418564B396D74FBCE6 /* BTUIPaymentMethodCollectionViewCell.m */,
+				FAC61322B89076F41A7F0A396DCA1D43 /* BTVaultManagementViewController.h */,
+				230137D17604AE7FC90A9AE7F7D612E9 /* BTVaultManagementViewController.m */,
+			);
+			name = DropIn;
+			sourceTree = "<group>";
+		};
+		2E064C034DFCC6FE3B108B9AD4D64518 /* BraintreeDropIn */ = {
+			isa = PBXGroup;
+			children = (
+				18D5BF141B24579F0AA05C8EA0A6BA4F /* DropIn */,
+				5D7DE4C14ACCD3A691833A616F39BF89 /* Support Files */,
+				BB5D49F361744E77912897D337A001F7 /* UIKit */,
+			);
+			name = BraintreeDropIn;
+			path = BraintreeDropIn;
+			sourceTree = "<group>";
+		};
+		56A6873B8E7913078EBD55B317FD9462 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				101361A3C934B8C838AEB722AE6D4601 /* Braintree */,
+				2E064C034DFCC6FE3B108B9AD4D64518 /* BraintreeDropIn */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D7DE4C14ACCD3A691833A616F39BF89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1999E3BFD07FC0521FE5098F7BCB6A71 /* BraintreeDropIn.modulemap */,
+				A1BED7ED20325BEA5E875848E14CA168 /* BraintreeDropIn.xcconfig */,
+				2EF8CCE685DC5BCF3B69B5D78F03D6F8 /* BraintreeDropIn-dummy.m */,
+				C876888A4B9C5F1A396F0D7F776CC6CA /* BraintreeDropIn-prefix.pch */,
+				59F16CF91150AFD78A592CF6E8711DF4 /* BraintreeDropIn-umbrella.h */,
+				06B3A2B8F1FB5255D5FB58C361A58457 /* Info.plist */,
+				6E4C14BDADBC046F5C96708D5FDED3AD /* ResourceBundle-Braintree-UIKit-Localization-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BraintreeDropIn";
+			sourceTree = "<group>";
+		};
+		67154D123A9601E816114B3C3CDF048D /* UnionPay */ = {
+			isa = PBXGroup;
+			children = (
+				A53C0FEFA7BF375A9265C2B4E2FA0367 /* BraintreeUnionPay.h */,
+				1117281C682ADAE8375F756F1B7A07CC /* BTCardCapabilities.h */,
+				0FED0F181B0A3FE19F1298140366E2E7 /* BTCardCapabilities.m */,
+				DE9A89B8C7E684E47CE5A2736477021E /* BTCardClient+UnionPay.h */,
+				7F31CFC9C97FABAE318AC39D6D61E4F3 /* BTCardClient+UnionPay.m */,
+				16DA154BC63939C26B2DCDEA355E70A0 /* BTConfiguration+UnionPay.h */,
+				9719D090B08582DA09A07CC2C9F69AAD /* BTConfiguration+UnionPay.m */,
+			);
+			name = UnionPay;
+			sourceTree = "<group>";
+		};
+		7B344740DD4116E9B2A7B934485AB3D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				807DA6A180225CD7641E0A8490A23826 /* Braintree.modulemap */,
+				C1F9B3AA05B63BD1F6E1FE0B387E1D97 /* Braintree.xcconfig */,
+				5DC1DBCD2788C806A46CD2534D2268C2 /* Braintree-dummy.m */,
+				100549E6F572F0F644447B0D3449FDC0 /* Braintree-prefix.pch */,
+				26ABE5CD1E96D3F00FD2ADB6DFAAAE28 /* Braintree-umbrella.h */,
+				8CC02D25BEAAB04FF554A574E5A3A401 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Braintree";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9C928DDD8BA347E8A45F2706B895C296 /* Frameworks */,
+				56A6873B8E7913078EBD55B317FD9462 /* Pods */,
+				AB46BCE6D70CFC4A562AD87D24AB16A8 /* Products */,
+				CA5CCB75AB77FEE35D41D17EFB9F5D09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C928DDD8BA347E8A45F2706B895C296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1B99217491066ED4624F99A0D4086 /* Braintree.framework */,
+				F6178AD37D41215D89E1068ED2B1A446 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB46BCE6D70CFC4A562AD87D24AB16A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEC0B2952BD6325384383A192B70F8EA /* Braintree.framework */,
+				2915393B76D49B154BF19434C2F8361B /* Braintree-UIKit-Localization.bundle */,
+				FDB71301C1EC9EBB8B846DD960914586 /* BraintreeDropIn.framework */,
+				F4A19DCE0A827FA779A60A6FB4A75F73 /* Pods_Braintree_Tutorial.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5D49F361744E77912897D337A001F7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8A6D476785702C2E3DF4A623267BAED4 /* BraintreeUIKit.h */,
+				DB6C7E529814CAE869D699E83166FA91 /* BTUIKAmExVectorArtView.h */,
+				2F8C19478E5D7F2C6163E890CA812F3B /* BTUIKAmExVectorArtView.m */,
+				A63B676F4B2202A8ED34FFBF64B62D43 /* BTUIKAppearance.h */,
+				30112AAF0F8DF212745B90D368C4B466 /* BTUIKAppearance.m */,
+				609CD9A6DA703B8A4B0EA5547B320127 /* BTUIKApplePayMarkVectorArtView.h */,
+				D16EB076D3458827FFFB7B47E37650EC /* BTUIKApplePayMarkVectorArtView.m */,
+				17E9062FDD4AE4A665CB91A2BF6A85FA /* BTUIKBarButtonItem.h */,
+				05EA7EED976A768867821CCE1F54DC7A /* BTUIKBarButtonItem.m */,
+				66CD4E86CD0F67F0306E8FA5CA5DDA1C /* BTUIKCardExpirationValidator.h */,
+				6317331471B42ACE6F4A539966046577 /* BTUIKCardExpirationValidator.m */,
+				D1B696C21CC552F46A8643045859D0AA /* BTUIKCardExpiryFormat.h */,
+				FB9093D21748BD9112F99C4E098D35A2 /* BTUIKCardExpiryFormat.m */,
+				9AFEDDD3092FC4DE30F5A5D24C9FB822 /* BTUIKCardListLabel.h */,
+				3886FEBA1515F16EB026C14B95DF6221 /* BTUIKCardListLabel.m */,
+				DB9ED169461ECC3390876583DF92C91B /* BTUIKCardNumberFormField.h */,
+				B11D7FEC7353C127C7899EEBCC208BB0 /* BTUIKCardNumberFormField.m */,
+				4797290A4145F2C698144CE4864B0469 /* BTUIKCardType.h */,
+				3D3C2761FFB563F3F08D9BD7D513F0B9 /* BTUIKCardType.m */,
+				3353C41E64C7BAFF27030283BB406181 /* BTUIKCardVectorArtView.h */,
+				E888802D467E067FA6F843098DC45E93 /* BTUIKCardVectorArtView.m */,
+				AD07C9FA8426C77DB78930CD9DD5B081 /* BTUIKCoinbaseMonogramCardView.h */,
+				EC572A2AA097DE414D2E314330DA3C48 /* BTUIKCoinbaseMonogramCardView.m */,
+				8357CE30DB4B70794CB7C30532F5B624 /* BTUIKCoinbaseWordmarkVectorArtView.h */,
+				A0364682180FC28E2CDAAF86CD5F4B8F /* BTUIKCoinbaseWordmarkVectorArtView.m */,
+				D1C8518701A3AF1A06D5BA6433FF591A /* BTUIKCollectionReusableView.h */,
+				F438ECE63ECCC16B4A6EB797E83DD9CE /* BTUIKCollectionReusableView.m */,
+				57A10978FCE891B76585A568A70B58AD /* BTUIKCVVBackVectorArtView.h */,
+				1DAAF97F2017000D035DC34A42C4192B /* BTUIKCVVBackVectorArtView.m */,
+				A369887E341322706C15015E1D6A61BF /* BTUIKCVVFrontVectorArtView.h */,
+				DF8BB3A91340172E7C5AABD07528F1EB /* BTUIKCVVFrontVectorArtView.m */,
+				360B45C26C180BB32AEDF0C2C3D0EF78 /* BTUIKDinersClubVectorArtView.h */,
+				A8DA55B47986D658C77135C3012FC59C /* BTUIKDinersClubVectorArtView.m */,
+				F557F88ADC8855897F20AEC0D4BC6D85 /* BTUIKDiscoverVectorArtView.h */,
+				C168BEC8C42E2393825733D0C57C3E7D /* BTUIKDiscoverVectorArtView.m */,
+				4D4E0877F77A2C15D4D55B974F9C79C9 /* BTUIKExpiryFormField.h */,
+				C720174E3156DE4ADF0E5B186C6283A4 /* BTUIKExpiryFormField.m */,
+				B3033F790DA12C47F60AE55A2DB31F42 /* BTUIKExpiryInputCollectionViewCell.h */,
+				F97FC2A5452A99C4FD58AC23AED53B7C /* BTUIKExpiryInputCollectionViewCell.m */,
+				5E9EBBB7FFFF14A83E94FED4D9FDFA00 /* BTUIKExpiryInputView.h */,
+				3F2844481553ACB690CB82338110BF0D /* BTUIKExpiryInputView.m */,
+				71FD981AD43BBE2F533E36ED3E50946A /* BTUIKFormField.h */,
+				10FF737F034B8CE6704681AD8CD7B267 /* BTUIKFormField.m */,
+				FE9C70BF39DD6ADF347E9A02F231F638 /* BTUIKInputAccessoryToolbar.h */,
+				A1271FC3F44279A8F86176F88DBB0938 /* BTUIKInputAccessoryToolbar.m */,
+				7A0FF0832EBDD75FB61BA63F153F1707 /* BTUIKJCBVectorArtView.h */,
+				045F9E8E6B4C2FFB6609F4B1ACF21BAD /* BTUIKJCBVectorArtView.m */,
+				CB0A1DAE2BCEA5EFD7A29A398B87A5D2 /* BTUIKLargeAmExVectorArtView.h */,
+				70F7E6DCA9C60ECA2AAE23DC971D3662 /* BTUIKLargeAmExVectorArtView.m */,
+				7794E5ED1E57EC4303FCCEB2D85B61A9 /* BTUIKLargeApplePayMarkVectorArtView.h */,
+				B8CC7C229687ED9A532E74B24A118EC8 /* BTUIKLargeApplePayMarkVectorArtView.m */,
+				E48B65C3812EFA8B31B903A8507634D6 /* BTUIKLargeCoinbaseMonogramCardView.h */,
+				F9C92EDF68D4E71FC48C00618428F555 /* BTUIKLargeCoinbaseMonogramCardView.m */,
+				628680122799507D8994ADDD65707EDF /* BTUIKLargeDinersClubVectorArtView.h */,
+				DE87109CB50DC6EC1DCA601F140AC978 /* BTUIKLargeDinersClubVectorArtView.m */,
+				00F8269630E42AF89A912ADB756585FC /* BTUIKLargeDiscoverVectorArtView.h */,
+				77C3965436CC2686C91C2FADDBDC0D27 /* BTUIKLargeDiscoverVectorArtView.m */,
+				491EFBE140885BD732BD17593B604140 /* BTUIKLargeJCBVectorArtView.h */,
+				BDE1D38B0AEEBBF02D0575C0845193E5 /* BTUIKLargeJCBVectorArtView.m */,
+				D775357EEA090322D15C20ECB5740DF3 /* BTUIKLargeMaestroVectorArtView.h */,
+				4CD6DC2C57D79B8E4230B93101445714 /* BTUIKLargeMaestroVectorArtView.m */,
+				684D9E05B8A0454A47271E3DA6402DD4 /* BTUIKLargeMasterCardVectorArtView.h */,
+				B29D1839DA4A6B0854FB15E7499A810A /* BTUIKLargeMasterCardVectorArtView.m */,
+				316AE8D1F6B21CDD4A18F8816444C970 /* BTUIKLargePayPalMonogramCardView.h */,
+				3AF17F97598A7AF030754EC46E321F7F /* BTUIKLargePayPalMonogramCardView.m */,
+				69E1617F6526E045030378A6AFE73B45 /* BTUIKLargeUnionPayVectorArtView.h */,
+				AA0134B3968BB299745DE91C84C4FECB /* BTUIKLargeUnionPayVectorArtView.m */,
+				D58C7DBACDB76F3DE8DF8B8B8FEE18B7 /* BTUIKLargeUnknownCardVectorArtView.h */,
+				74E5ADDE5B848D3575475C044DEAAC8C /* BTUIKLargeUnknownCardVectorArtView.m */,
+				D4DF83FF6B0977D850FA482DEA28C94F /* BTUIKLargeVectorArtView.h */,
+				D73FA307C6426BB8036ACEEDA5EFEA77 /* BTUIKLargeVectorArtView.m */,
+				FED73F49F2BBE0A7503B035CAD5330A9 /* BTUIKLargeVenmoMonogramCardView.h */,
+				071F1172F1032274D227C712E733491A /* BTUIKLargeVenmoMonogramCardView.m */,
+				6A3343C16CD4D80CF66BA36BA55242BF /* BTUIKLargeVisaVectorArtView.h */,
+				2E97B230D305C0FCACE025B4CAB3DDCB /* BTUIKLargeVisaVectorArtView.m */,
+				3A19DC05F318A00ADA707048B9713F6A /* BTUIKLocalizedString.h */,
+				BDC6656B6FC05B2F9A568347C9662F88 /* BTUIKLocalizedString.m */,
+				B964A70402CAF8D68890DD0CE615819F /* BTUIKMaestroVectorArtView.h */,
+				4AA004378187EC9BCBFDD57BDDDC3664 /* BTUIKMaestroVectorArtView.m */,
+				47C1017396A08F782110B4F423525B6B /* BTUIKMasterCardVectorArtView.h */,
+				F56AE987099AA9CE279A985C163129BC /* BTUIKMasterCardVectorArtView.m */,
+				A39A1D1317B10EFB10B8D542CED98220 /* BTUIKMobileCountryCodeFormField.h */,
+				F2C414A07821A3A22261F2AA57552499 /* BTUIKMobileCountryCodeFormField.m */,
+				6A1499B23FC174EA688C677AD903737E /* BTUIKMobileNumberFormField.h */,
+				3ED3E977E761AB526F48BB86F530D1F2 /* BTUIKMobileNumberFormField.m */,
+				5AC3C3CB51030EC27CBE7F2B9AD70D5C /* BTUIKPaymentOptionCardView.h */,
+				F3225AD21092C75EA1A32F92C712F743 /* BTUIKPaymentOptionCardView.m */,
+				0D6F1A8E2EAE25100C4349F88B1FD0E4 /* BTUIKPaymentOptionType.h */,
+				0D77559379F2E1423DE7D4259B09402F /* BTUIKPayPalMonogramCardView.h */,
+				CFF94B0737FF6032F45255A351932041 /* BTUIKPayPalMonogramCardView.m */,
+				89136160D03EC05185966D9F54C3C848 /* BTUIKPayPalWordmarkCompactVectorArtView.h */,
+				B3BF14CD22414355A902F479AB859E3B /* BTUIKPayPalWordmarkCompactVectorArtView.m */,
+				959A582C10D7A470575DD1963BF089A3 /* BTUIKPayPalWordmarkVectorArtView.h */,
+				C853FA6F6A494863EF053B9E7E681F86 /* BTUIKPayPalWordmarkVectorArtView.m */,
+				D8C225601067A8AEC6B7591AB40BCE5E /* BTUIKPostalCodeFormField.h */,
+				230C35532C704A1DA71FDB0BC9994979 /* BTUIKPostalCodeFormField.m */,
+				FAA63F3BC21E9F5A28F621527720272A /* BTUIKSecurityCodeFormField.h */,
+				AA4BC5AC0358CB2EC360ED4D94B4791C /* BTUIKSecurityCodeFormField.m */,
+				A4C356B1C86DF60604CCDC12D5C8F305 /* BTUIKTextField.h */,
+				C6150A027752F15CD6C92D78C7466CA7 /* BTUIKTextField.m */,
+				5D00B8DAD2C8DAEA033FBE80DF06F634 /* BTUIKUnionPayVectorArtView.h */,
+				810859BE8E15D0826F928B22E275CC2C /* BTUIKUnionPayVectorArtView.m */,
+				778667FF4A9256F16B357EA089567215 /* BTUIKUnknownCardVectorArtView.h */,
+				1304A28889AF9A257DBAB5BC68F1C3D6 /* BTUIKUnknownCardVectorArtView.m */,
+				CBD7CF221C308DF01ECC274F3D0F3DC9 /* BTUIKUtil.h */,
+				BD770AFF3794C86AE6B76A3533C1E4C1 /* BTUIKUtil.m */,
+				F798D10FA876B489DC3BBB8C1FAC6F7C /* BTUIKVectorArtView.h */,
+				622A9BB5696EE37EB2C626286F8D4E82 /* BTUIKVectorArtView.m */,
+				E188126D71C68EA2545E6291387F892B /* BTUIKVenmoMonogramCardView.h */,
+				B83F92CD7C39EC7D9B8E847BAD3E0CEF /* BTUIKVenmoMonogramCardView.m */,
+				F2B101E4A1140C890DA0F8E2D26AF768 /* BTUIKVenmoWordmarkVectorArtView.h */,
+				7B1B8243E609044FC96C269DCBF25706 /* BTUIKVenmoWordmarkVectorArtView.m */,
+				0CF899C9DE2A7FB875CB188B6BF0959E /* BTUIKViewUtil.h */,
+				E7D341956098375E1C12AECEE1207C31 /* BTUIKViewUtil.m */,
+				5CC8A2ABA5CA8ADD352F709FE76454D1 /* BTUIKVisaVectorArtView.h */,
+				206F83926DA7EB8BDAFFC29E92DDAEF2 /* BTUIKVisaVectorArtView.m */,
+				B0649355C6F2159A95F88A1A150D0961 /* BTUIKVisualAssetType.h */,
+				CDD13AC22C1E213ED2267518111C1361 /* UIColor+BTUIK.h */,
+				DF042C2A1D765E6B7DF249F46517E8E1 /* UIColor+BTUIK.m */,
+				EFEE5C098EEBC21CD41E10CD4D3A4171 /* Resources */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		CA5CCB75AB77FEE35D41D17EFB9F5D09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0B89853FD20044A0E50020BE2D9747D /* Pods-Braintree Tutorial */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0B89853FD20044A0E50020BE2D9747D /* Pods-Braintree Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				D66A5ECBD2D537A03A045EB5424A82A0 /* Info.plist */,
+				797F00F0574667510D759B1FB156B6C9 /* Pods-Braintree Tutorial.modulemap */,
+				FE0DB8E95320FC52CFE5C58326FBD9E9 /* Pods-Braintree Tutorial-acknowledgements.markdown */,
+				F33BFEEA7B46EA8A07AB80CBA5939FF5 /* Pods-Braintree Tutorial-acknowledgements.plist */,
+				AD8668016D3C607A3AF9D0398BABBCC4 /* Pods-Braintree Tutorial-dummy.m */,
+				20FCF784CE2EEBDF9048ADC0E000C0F9 /* Pods-Braintree Tutorial-frameworks.sh */,
+				0AA938503532F9B674A01238E4C4DF39 /* Pods-Braintree Tutorial-resources.sh */,
+				128D8673D59ED1037FF123564A44C9EE /* Pods-Braintree Tutorial-umbrella.h */,
+				ABF40E05ECD63A7D7C100FBCDBCCC7A9 /* Pods-Braintree Tutorial.debug.xcconfig */,
+				71D9E1AB3E6E7A5FD8787D9D504A8071 /* Pods-Braintree Tutorial.release.xcconfig */,
+			);
+			name = "Pods-Braintree Tutorial";
+			path = "Target Support Files/Pods-Braintree Tutorial";
+			sourceTree = "<group>";
+		};
+		EFEE5C098EEBC21CD41E10CD4D3A4171 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39489CF321F68D789A7ADEEF6EE2CD79 /* ar.lproj */,
+				3016AFCFDFF21B29080A28E0159E9BD9 /* da.lproj */,
+				9E91950D2664D29FDDF45D1CA195F64E /* de.lproj */,
+				D18DDD19DC21D8A5AD3B774C64F014CF /* en.lproj */,
+				C73342AA063852FD7C0A0ADF5F3119AD /* es.lproj */,
+				DBA9FA21F25125AD018D144B2358D68B /* fr.lproj */,
+				91934FE08A70535AAA94344B28C8FF74 /* fr-CA.lproj */,
+				A6FD620F63B38A6FA8E50EC4603453A4 /* he.lproj */,
+				48C57BBD6D5DA2C69D832BB899F287A6 /* id.lproj */,
+				1ED3DDB5E0A7EA595467F79BA6322685 /* it.lproj */,
+				E9B70D4DB2E8E51602ED70DC6A4110D7 /* ja.lproj */,
+				8CA023246CFF2299AF7658AF991829ED /* ko.lproj */,
+				53835D95AC318BC572BD202F66F390F3 /* nb.lproj */,
+				56403F00DA8D11FCF3C0427DC224659B /* nl.lproj */,
+				DF50A6616A3740C29F0EE5545656AD12 /* pl.lproj */,
+				E1342E41478BE7C4ED19F81FC2A13A91 /* pt.lproj */,
+				E222F3A99E26A710E09F0C11C968209D /* ru.lproj */,
+				429F9056A8BA1E7E24C4F6AC8F35D0B6 /* sv.lproj */,
+				7A9F5444DD43263AB8F8548ADF111A09 /* th.lproj */,
+				307431D1C87CAB07ACFC72AB85FF349A /* tr.lproj */,
+				0242219E19A5636C0F15FFFC3FCC5D6A /* zh-Hans.lproj */,
+				AA21761AE40B8AE6F1E107115A65CCC2 /* zh-Hant.lproj */,
+				FA8247BA7CAD6AC080B220E0E07D03DA /* zh-Hant-HK.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6178AD37D41215D89E1068ED2B1A446 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				700A44B5BC52512674DA20B4D131B5CD /* AddressBook.framework */,
+				4A5AF2E4C1E7019FAE614D5A26A6BA16 /* Foundation.framework */,
+				10CDA87DF260201D6AD9D42F48E6248A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		260B52F4D3520277FE1AB235A3F4B2A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690A6360893B1446DAE19DB40770FDFD /* Braintree-umbrella.h in Headers */,
+				9D7DB8F8C302023FB59108F05F793B9D /* Braintree-Version.h in Headers */,
+				218E7717FA5959F487DB63E9EB6BEDD4 /* BraintreeCard.h in Headers */,
+				B2EE097343B2860D2CF7D3B4973CC713 /* BraintreeCore.h in Headers */,
+				71ADC882307478BC7FDDE8A3DDD4B9F1 /* BraintreeUnionPay.h in Headers */,
+				2695B102DA7405AFD4E9379B876A26B5 /* BTAnalyticsMetadata.h in Headers */,
+				BE13F85FE3B98D6BFF9A88629D7F50DC /* BTAnalyticsService.h in Headers */,
+				F57AD7BBEB4B6AE59106BF98057CA256 /* BTAPIClient.h in Headers */,
+				1FD985E49635AF1F332EB56EB26A4574 /* BTAPIClient_Internal.h in Headers */,
+				4F22690D571B2706AD9EA224E850CA4B /* BTAPIHTTP.h in Headers */,
+				0B90F7165D3E354C5EB3FF7FA1F071D3 /* BTAPIPinnedCertificates.h in Headers */,
+				80238C5DE7DE52BBEF81972FF48FA8FD /* BTAppSwitch.h in Headers */,
+				8B20CA35B2DA54729B63A7382D2ECA7B /* BTBinData.h in Headers */,
+				3CCC9FEA225662D25C80F5673B19E86B /* BTCard.h in Headers */,
+				33E6E575B3EDAAA945B0B5FEF9D8ACA5 /* BTCard_Internal.h in Headers */,
+				43B5BDC1732F8277C87E171BCACAA266 /* BTCardCapabilities.h in Headers */,
+				5701C32CC91A58879745448210920011 /* BTCardClient+UnionPay.h in Headers */,
+				43A83263D2181D00E4722D23FAA44325 /* BTCardClient.h in Headers */,
+				F2B74EC8C2AA42259C838E632CEFAD0F /* BTCardClient_Internal.h in Headers */,
+				E1C62CC1B15CC69C9CD67887A3B2C2E1 /* BTCardNonce.h in Headers */,
+				EAAB600DD2EFD7EBD1BB477E5A4824CE /* BTCardNonce_Internal.h in Headers */,
+				2AA486AC1D01CF679031C9162BE84921 /* BTCardRequest.h in Headers */,
+				6679861CBFB00EF66819F3077683FD2D /* BTClientMetadata.h in Headers */,
+				2383A5A43BDA79FA65DD67DDEFAEBAE7 /* BTClientToken.h in Headers */,
+				A4B5FCDBC516A507D894803E5A2DD6EF /* BTConfiguration+UnionPay.h in Headers */,
+				F587BE3E38F9D6AACD96FB5E18E2D24A /* BTConfiguration.h in Headers */,
+				C834A928267704AA2E8C9498C00B2D9F /* BTEnums.h in Headers */,
+				5691C1A011CF7A4177E333CDCD79A8F3 /* BTErrors.h in Headers */,
+				5B423CCC64BBF893FF83A05A4D2FF634 /* BTHTTP.h in Headers */,
+				C2D38527152AC3AA8BAF27CFFF6684E2 /* BTHTTPErrors.h in Headers */,
+				EB0DD12B91F72AC9CC2141FAAE8FB899 /* BTJSON.h in Headers */,
+				74FCBE21A57A1905CF82B8666B2D3E3E /* BTKeychain.h in Headers */,
+				792D1940CE8812B9CF0869CD289626D2 /* BTLogger.h in Headers */,
+				E905F5C872EE74545E756A5CF1200722 /* BTLogger_Internal.h in Headers */,
+				A7652D9EDCCF77B5444244E1C595A75F /* BTPaymentMethodNonce.h in Headers */,
+				91C6006132703529D1A4639B2BBA07FA /* BTPaymentMethodNonceParser.h in Headers */,
+				684F42853CE5498AE6A3784B969EEDD6 /* BTPostalAddress.h in Headers */,
+				9E389FAD09180BA4DAB2C2BB898B2FDE /* BTTokenizationService.h in Headers */,
+				90EEE02C65ECBEAA122942D9956D0F37 /* BTURLUtils.h in Headers */,
+				75880BA968AF1FA75854C20395CD63A3 /* BTViewControllerPresentingDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0BF7DC6DCC112003C0465F1B81F484B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FA947F2DC2476BA180752693B5C7CC /* BraintreeDropIn-umbrella.h in Headers */,
+				1F7AFAD7CF2C0284B347BF71CDABB823 /* BraintreeDropIn.h in Headers */,
+				19F4D43795AFF140C0F69FCEEC9D1511 /* BraintreeUIKit.h in Headers */,
+				1B07AF70A2EB18D8F7ACB26382FC9A18 /* BTAPIClient_Internal_Category.h in Headers */,
+				21293613FC31F9F2B8904D2B17E5B280 /* BTCardFormViewController.h in Headers */,
+				933C039EE649E23673F7642E8019FF95 /* BTDropInBaseViewController.h in Headers */,
+				23B1F6912641F3A57BE652C9172A9367 /* BTDropInController.h in Headers */,
+				4967033DEAA02E28868E1FD7B7A3F597 /* BTDropInOverrides.h in Headers */,
+				F63DF81C060994EBFF61A8D32A922CD6 /* BTDropInPaymentSeletionCell.h in Headers */,
+				1B97EB003D9484E754A23F9E644DE434 /* BTDropInRequest.h in Headers */,
+				D9E6D62E7904CFB8FE9C88F1B6F620D0 /* BTDropInResult.h in Headers */,
+				FB1F9E158B28B8BD5FAFB60C2DA9096B /* BTDropInUIUtilities.h in Headers */,
+				24D3A9C0EEF7B026E73880BE6DF85110 /* BTEnrollmentVerificationViewController.h in Headers */,
+				77D972C27B18761A56A348E531A58FEC /* BTPaymentSelectionViewController.h in Headers */,
+				65A50E098B977011DB8DD3E6C788CCE7 /* BTUIKAmExVectorArtView.h in Headers */,
+				B983BCF73AE59D03E946E3A07BFBA664 /* BTUIKAppearance.h in Headers */,
+				27F72CC57521F05B8834AEFE4CBC12AE /* BTUIKApplePayMarkVectorArtView.h in Headers */,
+				FC45A6A31E3BEB2261D79937D3F48ADD /* BTUIKBarButtonItem.h in Headers */,
+				EAF625E1416E8A3A7B91BAC0A650F39B /* BTUIKBarButtonItem_Internal_Declaration.h in Headers */,
+				D57623CA32844F915D0A1244272F2BD3 /* BTUIKCardExpirationValidator.h in Headers */,
+				6012F02D489409C30279BADEC25C1628 /* BTUIKCardExpiryFormat.h in Headers */,
+				B1DE4F6A107C296C491025C3FFCF1DC7 /* BTUIKCardListLabel.h in Headers */,
+				8A51495CB7E5851BCEAF4F4F6E1FFA9A /* BTUIKCardNumberFormField.h in Headers */,
+				BC87E5D8E18B17C608F72E3CF57DA482 /* BTUIKCardType.h in Headers */,
+				E608F6D293DF286565E73B1862E64A7C /* BTUIKCardVectorArtView.h in Headers */,
+				A193A4D98B53835FE05776EA9B63F4AD /* BTUIKCoinbaseMonogramCardView.h in Headers */,
+				07FCC8F0D3A57004C1B8AC09CE059316 /* BTUIKCoinbaseWordmarkVectorArtView.h in Headers */,
+				BB10B1D320DC4B33D45F665B5395F196 /* BTUIKCollectionReusableView.h in Headers */,
+				2C4ABD6F1E4CACCF949CA0EBA4608333 /* BTUIKCVVBackVectorArtView.h in Headers */,
+				7FD4B7ECB490EFB3A929EA03F9F8DFFD /* BTUIKCVVFrontVectorArtView.h in Headers */,
+				2712656FCE95CDA69FAFD7E6EDE1206C /* BTUIKDinersClubVectorArtView.h in Headers */,
+				D8DDA284579295840E5D3E22B2F66152 /* BTUIKDiscoverVectorArtView.h in Headers */,
+				F47E7E8C6ADDEE69029F14E26376F619 /* BTUIKExpiryFormField.h in Headers */,
+				0392AB419ED71536AC62A272E24D1C20 /* BTUIKExpiryInputCollectionViewCell.h in Headers */,
+				57EB1FD0F6667C2B1A28228FC0AAC7CE /* BTUIKExpiryInputView.h in Headers */,
+				944FBE94944654F5CB2EE294703236B4 /* BTUIKFormField.h in Headers */,
+				80D77000DBEA5E557519D13B7809ADFF /* BTUIKInputAccessoryToolbar.h in Headers */,
+				67DD1FDD7CF2A902F70B7BE561C711F4 /* BTUIKJCBVectorArtView.h in Headers */,
+				AC16E52FB997D5A0368C568F57639984 /* BTUIKLargeAmExVectorArtView.h in Headers */,
+				448AAAE28E47A9096D849C9F27329E5D /* BTUIKLargeApplePayMarkVectorArtView.h in Headers */,
+				5B047057AA655DE159B858700CA37004 /* BTUIKLargeCoinbaseMonogramCardView.h in Headers */,
+				472B430711C51C1075868BF7656AEE19 /* BTUIKLargeDinersClubVectorArtView.h in Headers */,
+				D1659BEFA47FEC8D5E9B1EBBC8D48172 /* BTUIKLargeDiscoverVectorArtView.h in Headers */,
+				46200BA2B238CF3505E5BC72F6555546 /* BTUIKLargeJCBVectorArtView.h in Headers */,
+				49FDD61617FFE6F8957482A7DC6F9063 /* BTUIKLargeMaestroVectorArtView.h in Headers */,
+				C401F936F5771800C0758485E5A52431 /* BTUIKLargeMasterCardVectorArtView.h in Headers */,
+				D8429C1F34ACC0FA35FE68FD913BFD5E /* BTUIKLargePayPalMonogramCardView.h in Headers */,
+				40884B4652751490DAC02873EFCE016C /* BTUIKLargeUnionPayVectorArtView.h in Headers */,
+				A0C00E3636C56F7F60A406BD68455CD5 /* BTUIKLargeUnknownCardVectorArtView.h in Headers */,
+				D8918B0A144B8194F9931BE143B69FCF /* BTUIKLargeVectorArtView.h in Headers */,
+				F6A42DA8DDA22B24110EC8AB48ED715B /* BTUIKLargeVenmoMonogramCardView.h in Headers */,
+				5CBF3BCFFE2E7AAC9C277D2AE9639FB8 /* BTUIKLargeVisaVectorArtView.h in Headers */,
+				80D9BD09AC1FFE5C288B27250D32F997 /* BTUIKLocalizedString.h in Headers */,
+				DD8D1F26B4F49258EC921C7CF36810CC /* BTUIKMaestroVectorArtView.h in Headers */,
+				785D005677F24A527E8F3943181F8D3C /* BTUIKMasterCardVectorArtView.h in Headers */,
+				A85319F71B6220A0826B09900955F41E /* BTUIKMobileCountryCodeFormField.h in Headers */,
+				77B422A63139D2E5D4CBDC6E53A3F4F5 /* BTUIKMobileNumberFormField.h in Headers */,
+				0F5445CA5FE4D637919CBA52AC3BFF06 /* BTUIKPaymentOptionCardView.h in Headers */,
+				C59A2FB2B2A08A61D7316CD51FD9558D /* BTUIKPaymentOptionType.h in Headers */,
+				AC2B88A47BC984A5EF32B94FAC68C992 /* BTUIKPayPalMonogramCardView.h in Headers */,
+				A214EEA3BB3AB96A1482461C9E902225 /* BTUIKPayPalWordmarkCompactVectorArtView.h in Headers */,
+				103BFE910CEF092EF9275289AAEC28E2 /* BTUIKPayPalWordmarkVectorArtView.h in Headers */,
+				959CC26382B2BE294547169C6CE2F707 /* BTUIKPostalCodeFormField.h in Headers */,
+				9363B19D0522C5F399534D0194AB36A1 /* BTUIKSecurityCodeFormField.h in Headers */,
+				ECA3C3314183F202549C17FB841E68DA /* BTUIKTextField.h in Headers */,
+				297F6CF0D63A4078C8199BBF02084F97 /* BTUIKUnionPayVectorArtView.h in Headers */,
+				1051C033A9987F7BB63F1807E9234424 /* BTUIKUnknownCardVectorArtView.h in Headers */,
+				E09AEC7DA265DC801351430FC40738DA /* BTUIKUtil.h in Headers */,
+				480AC1DE9C97D9AEE82A6FB1C77CE457 /* BTUIKVectorArtView.h in Headers */,
+				DA8467E46C43EB04157296796D70B448 /* BTUIKVenmoMonogramCardView.h in Headers */,
+				A90D7AC54E76B3041274ABB4623E7107 /* BTUIKVenmoWordmarkVectorArtView.h in Headers */,
+				0175A28D7CEC4285B8EA571D4952BFCE /* BTUIKViewUtil.h in Headers */,
+				F8F84FB666493953217FB9F0347B0FAE /* BTUIKVisaVectorArtView.h in Headers */,
+				C6A6E77AFDFA8A0D1D98F2559926C5AB /* BTUIKVisualAssetType.h in Headers */,
+				487AE2A19948E4B996EDF43D85F0A280 /* BTUIPaymentMethodCollectionViewCell.h in Headers */,
+				6F624DAA8607313BEABB3A6DECC3843B /* BTVaultManagementViewController.h in Headers */,
+				23BD28A1DBCF89ED6BEBF13D0D4A5B03 /* UIColor+BTUIK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5AB90EA2A0199E1C6C7BD0F3DCF19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E5B585D579A31005DCC25EB809CA99 /* Pods-Braintree Tutorial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		140C8CC830132704A5F6992797010FD1 /* Braintree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14ECC0B044FF10904FD726290480DCD3 /* Build configuration list for PBXNativeTarget "Braintree" */;
+			buildPhases = (
+				260B52F4D3520277FE1AB235A3F4B2A0 /* Headers */,
+				A279999F1938C3A894F3243C09211751 /* Sources */,
+				96B4B9767DA9FF16E7F02E061E4954C7 /* Frameworks */,
+				2A26F599ADFB32B6CF3421AE5172D22A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braintree;
+			productName = Braintree;
+			productReference = AEC0B2952BD6325384383A192B70F8EA /* Braintree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42085DFC2D58A257A7A3A42EE901D28E /* BraintreeDropIn-Braintree-UIKit-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 780F337B960AD6142DE78A456C875181 /* Build configuration list for PBXNativeTarget "BraintreeDropIn-Braintree-UIKit-Localization" */;
+			buildPhases = (
+				E0C6EB565E6335825132C788ACFEA6E9 /* Sources */,
+				B3624D69824AE3022C461DDC4B7AA13D /* Frameworks */,
+				CE8053F5A3B94386A7B266ABC484545C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BraintreeDropIn-Braintree-UIKit-Localization";
+			productName = "BraintreeDropIn-Braintree-UIKit-Localization";
+			productReference = 2915393B76D49B154BF19434C2F8361B /* Braintree-UIKit-Localization.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4EAD97C42E52AED65B10BE2DE607D402 /* Pods-Braintree Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 793FFBA426C7AC53607DFE8EF321274A /* Build configuration list for PBXNativeTarget "Pods-Braintree Tutorial" */;
+			buildPhases = (
+				D6F5AB90EA2A0199E1C6C7BD0F3DCF19 /* Headers */,
+				7A205FC8AF185E6417B4D1F3B0F3A679 /* Sources */,
+				3C28D9C4DDC0D4228E02D3BAEAE2FA8C /* Frameworks */,
+				B2B97C5B8BD919A0FB39332D61B442A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA2DDD4B7F122DA46E8FA13E75F6C756 /* PBXTargetDependency */,
+				CD1149784066D769B2B63A5355328703 /* PBXTargetDependency */,
+			);
+			name = "Pods-Braintree Tutorial";
+			productName = "Pods-Braintree Tutorial";
+			productReference = F4A19DCE0A827FA779A60A6FB4A75F73 /* Pods_Braintree_Tutorial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA30AE2F278E324AFCEBDF36830228B3 /* BraintreeDropIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8592CDD865FAC835EF85C82C0F2E8CC /* Build configuration list for PBXNativeTarget "BraintreeDropIn" */;
+			buildPhases = (
+				D0BF7DC6DCC112003C0465F1B81F484B /* Headers */,
+				C1228B1031C4C1F3B7BC435C1494B50B /* Sources */,
+				53F84A003583B03FE026F79851234D98 /* Frameworks */,
+				0890759DED1FC7AB954D6196DBC1672E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30E66D239E2B956084FFCC4E62031BD /* PBXTargetDependency */,
+				68548338264A04A34B5DE5519327F69C /* PBXTargetDependency */,
+			);
+			name = BraintreeDropIn;
+			productName = BraintreeDropIn;
+			productReference = FDB71301C1EC9EBB8B846DD960914586 /* BraintreeDropIn.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AB46BCE6D70CFC4A562AD87D24AB16A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140C8CC830132704A5F6992797010FD1 /* Braintree */,
+				CA30AE2F278E324AFCEBDF36830228B3 /* BraintreeDropIn */,
+				42085DFC2D58A257A7A3A42EE901D28E /* BraintreeDropIn-Braintree-UIKit-Localization */,
+				4EAD97C42E52AED65B10BE2DE607D402 /* Pods-Braintree Tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0890759DED1FC7AB954D6196DBC1672E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364C5AD50A91050B3E372A636C8BA396 /* Braintree-UIKit-Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A26F599ADFB32B6CF3421AE5172D22A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B97C5B8BD919A0FB39332D61B442A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8053F5A3B94386A7B266ABC484545C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D065CE4300DDE0AF5AB0D3545E9DFC01 /* ar.lproj in Resources */,
+				F998B800DA96F53E0F80CA8D53A98439 /* da.lproj in Resources */,
+				D40F24230BB4F707A7812C2582C988C0 /* de.lproj in Resources */,
+				F38EFF0D288535F9E2258F23536BFD85 /* en.lproj in Resources */,
+				1F80CE82899522B2A7C19ECF5D740EFE /* es.lproj in Resources */,
+				E4E1E68CA16048C34D9F34D0FCA78D13 /* fr-CA.lproj in Resources */,
+				8D3998A7D1BFB5B48B09B3BE01E7A46B /* fr.lproj in Resources */,
+				5400B2B95EFA8F77FC11481F9ABBA0CE /* he.lproj in Resources */,
+				09A20768C6FA8A88571A0B89BE6B3544 /* id.lproj in Resources */,
+				96F3C9C7B5DBBE320B6288159C0A7849 /* it.lproj in Resources */,
+				28279A6D44D3FE5E6A7F000E0ED4E78A /* ja.lproj in Resources */,
+				7F1B8E609E216338B7BF7ED6EA6C1880 /* ko.lproj in Resources */,
+				56167CA8BEA34C92ED5322ED1096959D /* nb.lproj in Resources */,
+				0FF75B86A9E01F2A28FB6E47B5C1762A /* nl.lproj in Resources */,
+				AB99646501C2FDB76C127DD97601AA9D /* pl.lproj in Resources */,
+				233A6CCA9C8A86487035D18ABCBA8AB3 /* pt.lproj in Resources */,
+				F65616D136C2FB41E39B5B9F33A9498D /* ru.lproj in Resources */,
+				765434907FB6904D7B065E20554F25EB /* sv.lproj in Resources */,
+				FEB7AC557BED206BE01DCFBCBB297BA8 /* th.lproj in Resources */,
+				E0D5B1C6AC9D9C033F4C82CB838B19C4 /* tr.lproj in Resources */,
+				56C293CE4134D28F5BD5B59549AAEC05 /* zh-Hans.lproj in Resources */,
+				0675E72FB00CF35DECFBE8959DCD6082 /* zh-Hant-HK.lproj in Resources */,
+				87F9F83841B1981D9D8AED1B3690AB21 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A205FC8AF185E6417B4D1F3B0F3A679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C5F3D4515F58B1E05FD72A0634262B /* Pods-Braintree Tutorial-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A279999F1938C3A894F3243C09211751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1C60149BD9563EE7252CF64681BE55 /* Braintree-dummy.m in Sources */,
+				3F8CF0822349711CC088CE8FA2A557CE /* BTAnalyticsMetadata.m in Sources */,
+				360FC1C0634EBB57A2B1A3B7679C08A8 /* BTAnalyticsService.m in Sources */,
+				291D3CABAF10498A0DF00F4238521531 /* BTAPIClient.m in Sources */,
+				CB0FBD9E2A099D0BA1CA1AB963FE870B /* BTAPIHTTP.m in Sources */,
+				8EA9FA34EF40B57522797550A581E59C /* BTAPIPinnedCertificates.m in Sources */,
+				2787A1F795EEEAB801E7E9D8FB389DE1 /* BTAppSwitch.m in Sources */,
+				4D551D523E3650B8F903DCB416F21909 /* BTBinData.m in Sources */,
+				DE8BD4D08BE5DF96E6C190CFBAD00808 /* BTCard.m in Sources */,
+				CEC8C5CE528971EDDF1FEE05043E6461 /* BTCardCapabilities.m in Sources */,
+				AF31281DEB573C25F205746BC2DAC859 /* BTCardClient+UnionPay.m in Sources */,
+				BB942A9CD2D3C7AAF1E8FE70FA8C5BC4 /* BTCardClient.m in Sources */,
+				1CF45F24408414BA9F55A21010872045 /* BTCardNonce.m in Sources */,
+				1DB969DF7B0E68965BEA5F65ABE07948 /* BTCardRequest.m in Sources */,
+				D08A7EC46653C3E7829A0E1E177C265B /* BTClientMetadata.m in Sources */,
+				510CC9FAA35CA7800381F90F131E933A /* BTClientToken.m in Sources */,
+				BCE944FE6AD8A6115A0A377F60216F25 /* BTConfiguration+UnionPay.m in Sources */,
+				6AFECFE08D939C3ABE37C072F3422F3B /* BTConfiguration.m in Sources */,
+				7C1859A1775849713C083D14DCBC9E90 /* BTErrors.m in Sources */,
+				CC84A470333D7FD318CE145FA846D792 /* BTHTTP.m in Sources */,
+				0CA89EB08796711BEDBA46F2E4DADF77 /* BTHTTPErrors.m in Sources */,
+				DB4D5EA2F9E665D8ED02214DD4ACEBB9 /* BTJSON.m in Sources */,
+				781BFBE6B0F0BEBC41C544D3A629C20A /* BTKeychain.m in Sources */,
+				B4A2042952F18AFC6D6E6882B1669407 /* BTLogger.m in Sources */,
+				8D69014192C81296EB1B8B5311F84E5B /* BTPaymentMethodNonce.m in Sources */,
+				FBA040DD1D2388224AD7DFD8AF670B16 /* BTPaymentMethodNonceParser.m in Sources */,
+				CD0DCE67150E15CDAFB401175D75026D /* BTPostalAddress.m in Sources */,
+				8BC16E2274181D9ABEBDCD210D30FB86 /* BTTokenizationService.m in Sources */,
+				0A942EF83E394AE1B1982AA2ED02487D /* BTURLUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1228B1031C4C1F3B7BC435C1494B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662CD64F670444E62633D58229705913 /* BraintreeDropIn-dummy.m in Sources */,
+				F34E457CD033213374E8A29D281018BB /* BTCardFormViewController.m in Sources */,
+				9A53ACA10EF94B7D78A98C705C314965 /* BTDropInBaseViewController.m in Sources */,
+				6BD0AF44E7455DFD4A30C914A639B931 /* BTDropInController.m in Sources */,
+				F0A4F3F311156E783D2AAC1A0B9B4E2C /* BTDropInOverrides.m in Sources */,
+				ECE9DE4017D7FF4B168BF79E542F79C9 /* BTDropInPaymentSeletionCell.m in Sources */,
+				44A23CF8FE9FDD2F603D88BBBF003B92 /* BTDropInRequest.m in Sources */,
+				95BC9C9A161534A31E54B63D002A68A2 /* BTDropInResult.m in Sources */,
+				F295AA8C4BE7C35108131CFE3204AD7A /* BTDropInUIUtilities.m in Sources */,
+				131501AE61E748CFA6CA37698A71AFB2 /* BTEnrollmentVerificationViewController.m in Sources */,
+				E7E0CD1675F381DA9FE6C7A48637CF56 /* BTPaymentSelectionViewController.m in Sources */,
+				052015ED36610CF3A2A2247833C70114 /* BTUIKAmExVectorArtView.m in Sources */,
+				9C434F2C2938478898FEEF66DFDD6EF0 /* BTUIKAppearance.m in Sources */,
+				A6FF12FA3184DF395AB088F4ADA6982C /* BTUIKApplePayMarkVectorArtView.m in Sources */,
+				B2DFB5F8581D4DF28281E0C5A348DC41 /* BTUIKBarButtonItem.m in Sources */,
+				3D4327A7AE7BB1CFF9D04A6F31AFAA26 /* BTUIKCardExpirationValidator.m in Sources */,
+				FE0916FCB6F6790D56D500A86939055E /* BTUIKCardExpiryFormat.m in Sources */,
+				B8D22ACB78096F84BF77CE6FA2C4179B /* BTUIKCardListLabel.m in Sources */,
+				627A9D2615EDE58233F7D8F4501A28F6 /* BTUIKCardNumberFormField.m in Sources */,
+				3659ED16CE912FE30D9D8BF69CE06DD8 /* BTUIKCardType.m in Sources */,
+				74CA5A65B626DD2F1838BF1D763590AD /* BTUIKCardVectorArtView.m in Sources */,
+				47AAA8AB7E61105BBA346253771F7AE5 /* BTUIKCoinbaseMonogramCardView.m in Sources */,
+				FED675C1BB4C9CCD9D0954D670DA8F5F /* BTUIKCoinbaseWordmarkVectorArtView.m in Sources */,
+				8723D4AAE14F2BF72D2452F26175FDC1 /* BTUIKCollectionReusableView.m in Sources */,
+				35447112E8E872E75BB5309823CBC4B2 /* BTUIKCVVBackVectorArtView.m in Sources */,
+				716D8730629E03473BDCCB3C5B1E05CA /* BTUIKCVVFrontVectorArtView.m in Sources */,
+				EB787ED094648520CF5F9A609C7AE970 /* BTUIKDinersClubVectorArtView.m in Sources */,
+				5AC2361272BC9BA29A83BE3188E7CC76 /* BTUIKDiscoverVectorArtView.m in Sources */,
+				094D570E60E80940936168BA5708360D /* BTUIKExpiryFormField.m in Sources */,
+				04EB1099E60B1242E013556AC8591588 /* BTUIKExpiryInputCollectionViewCell.m in Sources */,
+				7FFE97F3F84C64CC0A6EBEC697175022 /* BTUIKExpiryInputView.m in Sources */,
+				747F9ADAFF299117684AFA7F627FF0B0 /* BTUIKFormField.m in Sources */,
+				7A0D54DA2EBA1FCD068C270BAD9CBF44 /* BTUIKInputAccessoryToolbar.m in Sources */,
+				D85C4AA0B82E76C8B9A3F4DCE4ADD0FF /* BTUIKJCBVectorArtView.m in Sources */,
+				EED90E350A7829501AFFE408A2042EA3 /* BTUIKLargeAmExVectorArtView.m in Sources */,
+				7952B1C681E75ECE6DF1F3914EC195CF /* BTUIKLargeApplePayMarkVectorArtView.m in Sources */,
+				8C1E56E4296703E53616B9C27555FBC2 /* BTUIKLargeCoinbaseMonogramCardView.m in Sources */,
+				617356227AD2DED84A2174DB4689D0BE /* BTUIKLargeDinersClubVectorArtView.m in Sources */,
+				2F32B62C31ADFF598FB6B47377AEC243 /* BTUIKLargeDiscoverVectorArtView.m in Sources */,
+				4FC6A0D15A6B36E7C4E14DC50E8338A6 /* BTUIKLargeJCBVectorArtView.m in Sources */,
+				E39BAB68E81BB4F54338A9BC8DBBA4E9 /* BTUIKLargeMaestroVectorArtView.m in Sources */,
+				0E6015F9054663644DDC5AABE6ACC50B /* BTUIKLargeMasterCardVectorArtView.m in Sources */,
+				295FB42862EE8C76A53AB10E7EAAD9E8 /* BTUIKLargePayPalMonogramCardView.m in Sources */,
+				127E15CCAC958ACDDED7BB83122089FD /* BTUIKLargeUnionPayVectorArtView.m in Sources */,
+				7E50DC622B5CB580AB79186BECB5EB0A /* BTUIKLargeUnknownCardVectorArtView.m in Sources */,
+				4BC7690192CA9820F09E5A260289E134 /* BTUIKLargeVectorArtView.m in Sources */,
+				2B3490484226D607E20AA8F1A071C4FB /* BTUIKLargeVenmoMonogramCardView.m in Sources */,
+				CA4251F2553C5118186E311A0242ED3D /* BTUIKLargeVisaVectorArtView.m in Sources */,
+				A7E6EB867EDA14E26905D92995150CFC /* BTUIKLocalizedString.m in Sources */,
+				A8C896D43EB0214FEE7CACD05040EFB0 /* BTUIKMaestroVectorArtView.m in Sources */,
+				D815D0CF86553CDA3445C7CE78483519 /* BTUIKMasterCardVectorArtView.m in Sources */,
+				2F839CF9F736A095D7B1F7F7AA8246E0 /* BTUIKMobileCountryCodeFormField.m in Sources */,
+				92DF5E453FF2F54079753A2F6CC769D7 /* BTUIKMobileNumberFormField.m in Sources */,
+				193332E5C31AD5DB580B025F405B76C0 /* BTUIKPaymentOptionCardView.m in Sources */,
+				9DF66F49978760B29CAE16F304A75A90 /* BTUIKPayPalMonogramCardView.m in Sources */,
+				71CDDAF6213FCAF095A25D37AD7F522E /* BTUIKPayPalWordmarkCompactVectorArtView.m in Sources */,
+				400375184DBF1AC851DDCA447E6B06DA /* BTUIKPayPalWordmarkVectorArtView.m in Sources */,
+				6E59DF9F3275D18E02D5BE8A85D85E42 /* BTUIKPostalCodeFormField.m in Sources */,
+				506711D05D33C4B4C3F636E9A56A59AF /* BTUIKSecurityCodeFormField.m in Sources */,
+				251DFC8CC4F3BA5281E649AF18F83F7E /* BTUIKTextField.m in Sources */,
+				6054F2E050D2DE9B2FD241E1CE83D248 /* BTUIKUnionPayVectorArtView.m in Sources */,
+				DB7DD18D838986C7E7D73D2BBE459B97 /* BTUIKUnknownCardVectorArtView.m in Sources */,
+				06E039D401DFB26907BE5AFE7712D17D /* BTUIKUtil.m in Sources */,
+				6488594BF2CBACC6A6ABC4EB9D5FC86E /* BTUIKVectorArtView.m in Sources */,
+				D128365739E4D74D62BA56B0EB24FD90 /* BTUIKVenmoMonogramCardView.m in Sources */,
+				1A3104395AD3868CF7A71BDA44DE43FE /* BTUIKVenmoWordmarkVectorArtView.m in Sources */,
+				AE6920413C8B9DF1C189DA273C0513E7 /* BTUIKViewUtil.m in Sources */,
+				9A8420706E48A173282F6BA79BA15A29 /* BTUIKVisaVectorArtView.m in Sources */,
+				E2BC805BFBB4817EFA7859B4A8F1EF77 /* BTUIPaymentMethodCollectionViewCell.m in Sources */,
+				647FE4810AF0A3966AD144ABE4802665 /* BTVaultManagementViewController.m in Sources */,
+				A35DB28CCDE3D44C657418AD7E51706E /* UIColor+BTUIK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C6EB565E6335825132C788ACFEA6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68548338264A04A34B5DE5519327F69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BraintreeDropIn-Braintree-UIKit-Localization";
+			target = 42085DFC2D58A257A7A3A42EE901D28E /* BraintreeDropIn-Braintree-UIKit-Localization */;
+			targetProxy = C1A0E6A0F8FDC55DC7CF0E8A85344F90 /* PBXContainerItemProxy */;
+		};
+		CD1149784066D769B2B63A5355328703 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BraintreeDropIn;
+			target = CA30AE2F278E324AFCEBDF36830228B3 /* BraintreeDropIn */;
+			targetProxy = 5C0890864C6E4CF164726398FA084AB1 /* PBXContainerItemProxy */;
+		};
+		EA2DDD4B7F122DA46E8FA13E75F6C756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Braintree;
+			target = 140C8CC830132704A5F6992797010FD1 /* Braintree */;
+			targetProxy = 8A372674DC72D2D7422D1B9F74848C68 /* PBXContainerItemProxy */;
+		};
+		F30E66D239E2B956084FFCC4E62031BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Braintree;
+			target = 140C8CC830132704A5F6992797010FD1 /* Braintree */;
+			targetProxy = 4B317916183AD43C4FCCB061DF497698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24E1F2E688F23BD69A520AF122453860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BED7ED20325BEA5E875848E14CA168 /* BraintreeDropIn.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BraintreeDropIn";
+				INFOPLIST_FILE = "Target Support Files/BraintreeDropIn/ResourceBundle-Braintree-UIKit-Localization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "Braintree-UIKit-Localization";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2FAFC37CE87484BD06688BC722FDF3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F9B3AA05B63BD1F6E1FE0B387E1D97 /* Braintree.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Braintree/Braintree-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Braintree/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Braintree/Braintree.modulemap";
+				PRODUCT_MODULE_NAME = Braintree;
+				PRODUCT_NAME = Braintree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		357FCFED500685E9AADD16FA1B55C99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BED7ED20325BEA5E875848E14CA168 /* BraintreeDropIn.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BraintreeDropIn";
+				INFOPLIST_FILE = "Target Support Files/BraintreeDropIn/ResourceBundle-Braintree-UIKit-Localization-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "Braintree-UIKit-Localization";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3E7A231C7D36EB502FA2EEBBF84B029A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		71C83FE40353A3C4E22D7D28F178C48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F9B3AA05B63BD1F6E1FE0B387E1D97 /* Braintree.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Braintree/Braintree-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Braintree/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Braintree/Braintree.modulemap";
+				PRODUCT_MODULE_NAME = Braintree;
+				PRODUCT_NAME = Braintree;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8716550BC11F7BEA523AD4BDBA876D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A282EB638ED0B3EE2CE49B3D6A56201D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF40E05ECD63A7D7C100FBCDBCCC7A9 /* Pods-Braintree Tutorial.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Braintree Tutorial/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Braintree Tutorial/Pods-Braintree Tutorial.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4889125D09DEA27724FEBCCA9927E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BED7ED20325BEA5E875848E14CA168 /* BraintreeDropIn.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BraintreeDropIn/BraintreeDropIn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BraintreeDropIn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BraintreeDropIn/BraintreeDropIn.modulemap";
+				PRODUCT_MODULE_NAME = BraintreeDropIn;
+				PRODUCT_NAME = BraintreeDropIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC5FC4355D2D8C6DA49A8D8B0D33A0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BED7ED20325BEA5E875848E14CA168 /* BraintreeDropIn.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BraintreeDropIn/BraintreeDropIn-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BraintreeDropIn/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BraintreeDropIn/BraintreeDropIn.modulemap";
+				PRODUCT_MODULE_NAME = BraintreeDropIn;
+				PRODUCT_NAME = BraintreeDropIn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFC0DFE3804F36CBFF2454F3D112F55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D9E1AB3E6E7A5FD8787D9D504A8071 /* Pods-Braintree Tutorial.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Braintree Tutorial/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Braintree Tutorial/Pods-Braintree Tutorial.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14ECC0B044FF10904FD726290480DCD3 /* Build configuration list for PBXNativeTarget "Braintree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FAFC37CE87484BD06688BC722FDF3D7 /* Debug */,
+				71C83FE40353A3C4E22D7D28F178C48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8716550BC11F7BEA523AD4BDBA876D5D /* Debug */,
+				3E7A231C7D36EB502FA2EEBBF84B029A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		780F337B960AD6142DE78A456C875181 /* Build configuration list for PBXNativeTarget "BraintreeDropIn-Braintree-UIKit-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357FCFED500685E9AADD16FA1B55C99C /* Debug */,
+				24E1F2E688F23BD69A520AF122453860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		793FFBA426C7AC53607DFE8EF321274A /* Build configuration list for PBXNativeTarget "Pods-Braintree Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A282EB638ED0B3EE2CE49B3D6A56201D /* Debug */,
+				EFC0DFE3804F36CBFF2454F3D112F55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8592CDD865FAC835EF85C82C0F2E8CC /* Build configuration list for PBXNativeTarget "BraintreeDropIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5FC4355D2D8C6DA49A8D8B0D33A0A6 /* Debug */,
+				C4889125D09DEA27724FEBCCA9927E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
